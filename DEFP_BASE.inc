@@ -1,2 +1,0 @@
-PARAMETER DEFP_BASE(RRR)  'Nominal annual average consumer electricity price (including taxes) in the base year (Money/MWh)'         ;                                                                                                                 
-DEFP_BASE(RRR) = 40;

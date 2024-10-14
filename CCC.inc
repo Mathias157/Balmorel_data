@@ -1,4 +1,5 @@
-SET CCC(CCCRRRAAA)  'All countries'
+SET CCC(CCCRRRAAA) 'All Countries'
 /
 DENMARK
-/;
+/
+;

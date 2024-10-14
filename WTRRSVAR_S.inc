@@ -1,1 +1,0 @@
-WTRRSVAR_S(AAA,SSS) = 1;

@@ -1,9 +1,5 @@
-TABLE  TRANSDEMAND_Y1(RRR,YYY)   'Annual transport demand (MWh)'
-* Simple assumptions on fixed conversion efficiencies to jet and shipping fuel, and that fuel is produced near ports
-               2050
-Esbjerg         0.4
-Frederikshavn   0.3
-Fredericia      0.3
+TABLE TRANSDEMAND_Y(YYY, RRR) 'Transport demand per region and year (MWh)'
+              CL27          CL32          CL33
+                                              
+2050  5.144055e+06  5.144055e+06  6.858740e+06
 ;
-TRANSDEMAND_Y(YYY,RRR)  = TRANSDEMAND_Y1(RRR,YYY)*17146848.9131; 
-TRANSDEMAND_Y1(RRR,YYY)=0;

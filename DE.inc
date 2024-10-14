@@ -1,301 +1,162 @@
-* Data from Energinet Dataservice 2023
-TABLE   DE1(RRR,DEUSER,YYY)   'Annual electricity consumption (MWh)'
-                                    2023
-                                        
-Aabenraa . OTHER            2.414032e+04
-Aabenraa . PII              3.063150e+05
-Aabenraa . RESE             9.472702e+04
-Aalborg . OTHER             1.098109e+05
-Aalborg . PII               9.639035e+05
-Aalborg . RESE              2.767623e+05
-Aarhus . OTHER              1.826877e+05
-Aarhus . PII                1.230096e+06
-Aarhus . RESE               3.635508e+05
-Aeroe . OTHER               3.794725e+03
-Aeroe . PII                 1.104252e+04
-Aeroe . RESE                1.357584e+04
-Albertslund . OTHER         1.229752e+04
-Albertslund . PII           7.216464e+04
-Albertslund . RESE          2.472340e+04
-Alleroed . OTHER            9.864908e+03
-Alleroed . PII              7.345929e+04
-Alleroed . RESE             4.332284e+04
-Assens . OTHER              7.807794e+03
-Assens . PII                1.373517e+05
-Assens . RESE               6.848213e+04
-Ballerup . OTHER            2.229326e+04
-Ballerup . PII              2.793009e+05
-Ballerup . RESE             6.230231e+04
-Billund . OTHER             9.546194e+03
-Billund . PII               2.504852e+05
-Billund . RESE              4.203671e+04
-Bornholm . OTHER            1.711216e+04
-Bornholm . PII              1.029885e+05
-Bornholm . RESE             8.255249e+04
-Broendby . OTHER            1.104496e+04
-Broendby . PII              1.136440e+05
-Broendby . RESE             3.891293e+04
-Broenderslev . OTHER        8.117436e+03
-Broenderslev . PII          1.336820e+05
-Broenderslev . RESE         5.919021e+04
-Dragoer . OTHER             1.373999e+04
-Dragoer . PII               1.194328e+04
-Dragoer . RESE              2.563601e+04
-Egedal . OTHER              8.755481e+03
-Egedal . PII                7.104979e+04
-Egedal . RESE               7.540681e+04
-Esbjerg . OTHER             4.533323e+04
-Esbjerg . PII               5.929204e+05
-Esbjerg . RESE              1.504712e+05
-Faaborg-Midtfyn . OTHER     1.322524e+04
-Faaborg-Midtfyn . PII       1.479624e+05
-Faaborg-Midtfyn . RESE      9.217845e+04
-Fanoe . OTHER               7.241993e+02
-Fanoe . PII                 6.028389e+03
-Fanoe . RESE                1.641085e+04
-Favrskov . OTHER            1.213777e+04
-Favrskov . PII              1.549175e+05
-Favrskov . RESE             7.790025e+04
-Faxe . OTHER                8.644158e+03
-Faxe . PII                  9.317171e+04
-Faxe . RESE                 6.822827e+04
-Fredensborg . OTHER         9.948885e+03
-Fredensborg . PII           4.639506e+04
-Fredensborg . RESE          6.788765e+04
-Fredericia . OTHER          1.504648e+04
-Fredericia . PII            4.860434e+05
-Fredericia . RESE           6.976724e+04
-Frederiksberg . OTHER       4.193137e+04
-Frederiksberg . PII         1.281086e+05
-Frederiksberg . RESE        8.033609e+04
-Frederikshavn . OTHER       3.014417e+04
-Frederikshavn . PII         3.281135e+05
-Frederikshavn . RESE        1.129469e+05
-Frederikssund . OTHER       1.477903e+04
-Frederikssund . PII         1.726838e+05
-Frederikssund . RESE        9.349036e+04
-Furesoe . OTHER             9.529149e+03
-Furesoe . PII               6.784401e+04
-Furesoe . RESE              6.057867e+04
-Gentofte . OTHER            3.420393e+04
-Gentofte . PII              1.202217e+05
-Gentofte . RESE             1.013752e+05
-Gladsaxe . OTHER            2.230969e+04
-Gladsaxe . PII              2.408469e+05
-Gladsaxe . RESE             7.872450e+04
-Glostrup . OTHER            1.968779e+04
-Glostrup . PII              1.014036e+05
-Glostrup . RESE             2.922432e+04
-Greve . OTHER               1.075267e+04
-Greve . PII                 1.057987e+05
-Greve . RESE                8.056959e+04
-Gribskov . OTHER            9.179948e+03
-Gribskov . PII              8.839822e+04
-Gribskov . RESE             1.396345e+05
-Guldborgsund . OTHER        2.479746e+04
-Guldborgsund . PII          1.294938e+05
-Guldborgsund . RESE         1.168488e+05
-Haderslev . OTHER           2.592490e+04
-Haderslev . PII             2.087612e+05
-Haderslev . RESE            8.965285e+04
-Halsnaes . OTHER            6.896841e+03
-Halsnaes . PII              1.218425e+05
-Halsnaes . RESE             8.034063e+04
-Hedensted . OTHER           1.094238e+04
-Hedensted . PII             2.433846e+05
-Hedensted . RESE            9.239501e+04
-Helsingoer . OTHER          1.767663e+04
-Helsingoer . PII            1.136986e+05
-Helsingoer . RESE           1.079956e+05
-Herlev . OTHER              5.568884e+04
-Herlev . PII                5.183255e+04
-Herlev . RESE               3.389622e+04
-Herning . OTHER             4.002159e+04
-Herning . PII               3.916370e+05
-Herning . RESE              1.213014e+05
-Hilleroed . OTHER           2.608444e+04
-Hilleroed . PII             1.763286e+05
-Hilleroed . RESE            8.169410e+04
-Hjoerring . OTHER           2.999452e+04
-Hjoerring . PII             3.001419e+05
-Hjoerring . RESE            1.243425e+05
-Hoeje-Taastrup . OTHER      1.288970e+04
-Hoeje-Taastrup . PII        1.988544e+05
-Hoeje-Taastrup . RESE       6.443168e+04
-Hoersholm . OTHER           7.194877e+03
-Hoersholm . PII             7.802448e+04
-Hoersholm . RESE            4.510460e+04
-Holbaek . OTHER             2.462020e+04
-Holbaek . PII               1.412930e+05
-Holbaek . RESE              1.331946e+05
-Holstebro . OTHER           1.720532e+04
-Holstebro . PII             4.748211e+05
-Holstebro . RESE            9.212826e+04
-Horsens . OTHER             3.175221e+04
-Horsens . PII               3.947842e+05
-Horsens . RESE              1.289816e+05
-Hvidovre . OTHER            4.556117e+04
-Hvidovre . PII              1.744218e+05
-Hvidovre . RESE             6.191033e+04
-Ikast-Brande . OTHER        1.090546e+04
-Ikast-Brande . PII          2.742487e+05
-Ikast-Brande . RESE         6.423788e+04
-Ishoej . OTHER              6.957528e+03
-Ishoej . PII                4.882696e+04
-Ishoej . RESE               2.667256e+04
-Jammerbugt . OTHER          8.948000e+03
-Jammerbugt . PII            1.306135e+05
-Jammerbugt . RESE           9.386371e+04
-Kalundborg . OTHER          1.295193e+04
-Kalundborg . PII            6.589378e+05
-Kalundborg . RESE           1.038114e+05
-Kerteminde . OTHER          5.603661e+03
-Kerteminde . PII            1.161463e+05
-Kerteminde . RESE           4.064684e+04
-Koebenhavn . OTHER          3.069773e+05
-Koebenhavn . PII            1.532267e+06
-Koebenhavn . RESE           4.653508e+05
-Koege . OTHER               2.620945e+04
-Koege . PII                 2.335486e+05
-Koege . RESE                9.554554e+04
-Kolding . OTHER             3.595341e+04
-Kolding . PII               4.031788e+05
-Kolding . RESE              1.331993e+05
-Laesoe . OTHER              1.151163e+03
-Laesoe . PII                5.452623e+03
-Laesoe . RESE               7.589691e+03
-Langeland . OTHER           3.195813e+03
-Langeland . PII             3.516641e+04
-Langeland . RESE            3.241232e+04
-Lejre . OTHER               8.594585e+03
-Lejre . PII                 4.604766e+04
-Lejre . RESE                6.539191e+04
-Lemvig . OTHER              6.061866e+03
-Lemvig . PII                1.607624e+05
-Lemvig . RESE               3.919525e+04
-Lolland . OTHER             1.024387e+04
-Lolland . PII               1.542392e+05
-Lolland . RESE              7.734328e+04
-Lyngby-Taarbaek . OTHER     6.971986e+04
-Lyngby-Taarbaek . PII       1.465336e+05
-Lyngby-Taarbaek . RESE      7.043185e+04
-Mariagerfjord . OTHER       1.092985e+04
-Mariagerfjord . PII         2.584712e+05
-Mariagerfjord . RESE        7.398929e+04
-Middelfart . OTHER          1.337310e+04
-Middelfart . PII            1.338006e+05
-Middelfart . RESE           6.771457e+04
-Morsoe . OTHER              6.058077e+03
-Morsoe . PII                1.118483e+05
-Morsoe . RESE               3.646997e+04
-Naestved . OTHER            2.742342e+04
-Naestved . PII              3.038264e+05
-Naestved . RESE             1.380119e+05
-Norddjurs . OTHER           1.088781e+04
-Norddjurs . PII             1.508802e+05
-Norddjurs . RESE            7.412530e+04
-Nordfyns . OTHER            5.413645e+03
-Nordfyns . PII              1.101872e+05
-Nordfyns . RESE             5.790084e+04
-Nyborg . OTHER              1.128545e+04
-Nyborg . PII                1.346020e+05
-Nyborg . RESE               4.715822e+04
-Odder . OTHER               6.456465e+03
-Odder . PII                 4.425645e+04
-Odder . RESE                4.412437e+04
-Odense . OTHER              1.007532e+05
-Odense . PII                1.249503e+06
-Odense . RESE               2.117095e+05
-Odsherred . OTHER           1.092148e+04
-Odsherred . PII             1.019969e+05
-Odsherred . RESE            1.182945e+05
-Randers . OTHER             3.005009e+04
-Randers . PII               2.542784e+05
-Randers . RESE              1.501919e+05
-Rebild . OTHER              5.907359e+03
-Rebild . PII                1.067661e+05
-Rebild . RESE               5.100936e+04
-Ringkoebing-Skjern . OTHER  1.368587e+04
-Ringkoebing-Skjern . PII    6.251380e+05
-Ringkoebing-Skjern . RESE   1.302982e+05
-Ringsted . OTHER            1.276545e+04
-Ringsted . PII              1.506620e+05
-Ringsted . RESE             5.459908e+04
-Roedovre . OTHER            1.144707e+04
-Roedovre . PII              5.954260e+04
-Roedovre . RESE             4.734675e+04
-Roskilde . OTHER            5.986339e+04
-Roskilde . PII              1.683761e+05
-Roskilde . RESE             1.302081e+05
-Rudersdal . OTHER           1.391450e+04
-Rudersdal . PII             1.024479e+05
-Rudersdal . RESE            1.008723e+05
-Samsoe . OTHER              1.573088e+03
-Samsoe . PII                1.192244e+04
-Samsoe . RESE               1.281259e+04
-Silkeborg . OTHER           2.654517e+04
-Silkeborg . PII             3.207949e+05
-Silkeborg . RESE            1.515099e+05
-Skanderborg . OTHER         1.383834e+04
-Skanderborg . PII           1.753310e+05
-Skanderborg . RESE          1.001461e+05
-Skive . OTHER               1.241488e+04
-Skive . PII                 2.492215e+05
-Skive . RESE                7.843093e+04
-Slagelse . OTHER            4.542050e+04
-Slagelse . PII              2.170265e+05
-Slagelse . RESE             1.272766e+05
-Soenderborg . OTHER         2.472332e+04
-Soenderborg . PII           3.136299e+05
-Soenderborg . RESE          1.113078e+05
-Solroed . OTHER             4.916903e+03
-Solroed . PII               3.891107e+04
-Solroed . RESE              3.769599e+04
-Soroe . OTHER               9.666378e+03
-Soroe . PII                 5.808002e+04
-Soroe . RESE                5.485400e+04
-Stevns . OTHER              5.825429e+03
-Stevns . PII                4.242906e+04
-Stevns . RESE               5.295740e+04
-Struer . OTHER              5.437461e+03
-Struer . PII                6.985906e+04
-Struer . RESE               3.400555e+04
-Svendborg . OTHER           2.238065e+04
-Svendborg . PII             1.463012e+05
-Svendborg . RESE            9.707427e+04
-Syddjurs . OTHER            9.869519e+03
-Syddjurs . PII              1.378852e+05
-Syddjurs . RESE             1.116827e+05
-Taarnby . OTHER             1.077153e+04
-Taarnby . PII               1.758675e+05
-Taarnby . RESE              5.640527e+04
-Thisted . OTHER             1.952771e+04
-Thisted . PII               2.226608e+05
-Thisted . RESE              8.031754e+04
-Toender . OTHER             1.169554e+04
-Toender . PII               3.251470e+05
-Toender . RESE              7.760756e+04
-Vallensbaek . OTHER         3.656700e+03
-Vallensbaek . PII           1.515928e+04
-Vallensbaek . RESE          2.055904e+04
-Varde . OTHER               1.584267e+04
-Varde . PII                 2.908358e+05
-Varde . RESE                1.251432e+05
-Vejen . OTHER               9.700147e+03
-Vejen . PII                 2.691471e+05
-Vejen . RESE                7.081507e+04
-Vejle . OTHER               4.302504e+04
-Vejle . PII                 4.791212e+05
-Vejle . RESE                1.867860e+05
-Vesthimmerlands . OTHER     1.115416e+04
-Vesthimmerlands . PII       2.008421e+05
-Vesthimmerlands . RESE      6.408368e+04
-Viborg . OTHER              5.383967e+04
-Viborg . PII                5.021995e+05
-Viborg . RESE               1.448246e+05
-Vordingborg . OTHER         1.615646e+04
-Vordingborg . PII           1.136684e+05
-Vordingborg . RESE          9.808667e+04;
-DE(YYY,RRR,DEUSER)=DE1(RRR,DEUSER,YYY);
-DE('2050',RRR,DEUSER) = DE('2023', RRR, DEUSER);
-DE1(RRR,DEUSER,YYY) = 0;
+TABLE DE(YYY, RRR, DEUSER) 'Annual electricity consumption (MWh)'
+                   OTHER          PII        RESE
+                                                 
+2023 . CL0   140147.9800   610050.100  351403.850
+2023 . CL1    35041.3300   283733.000  194192.080
+2023 . CL10   15842.6700   290835.800  125143.200
+2023 . CL11    5907.3590   106766.100   51009.360
+2023 . CL12   16889.1110   250748.300   87805.060
+2023 . CL13   47641.9350   362542.210  249136.320
+2023 . CL14    5825.4290    42429.060   52957.400
+2023 . CL15   11695.5400   325147.000   77607.560
+2023 . CL16   13685.8700   625138.000  130298.200
+2023 . CL17    9666.3780    58080.020   54854.000
+2023 . CL18    3656.7000    15159.280   20559.040
+2023 . CL19    9869.5190   137885.200  111682.700
+2023 . CL2    18786.7450   243987.800  125615.410
+2023 . CL20    9700.1470   269147.100   70815.070
+2023 . CL21   26545.1700   320794.900  151509.900
+2023 . CL22   19527.7100   222660.800   80317.540
+2023 . CL23   41931.3700   128108.600   80336.090
+2023 . CL24    6061.8660   160762.400   39195.250
+2023 . CL25   31752.2100   394784.200  128981.600
+2023 . CL26   86823.7000   212778.750  110467.290
+2023 . CL27   16156.4600   113668.400   98086.670
+2023 . CL28   53839.6700   502199.500  144824.600
+2023 . CL29    1573.0880    11922.440   12812.590
+2023 . CL3    21033.0340   285314.100  160660.580
+2023 . CL30   12765.4500   150662.000   54599.080
+2023 . CL31    1151.1630     5452.623    7589.691
+2023 . CL32   29994.5200   300141.900  124342.500
+2023 . CL33   27423.4200   303826.400  138011.900
+2023 . CL34    8594.5850    46047.660   65391.910
+2023 . CL35   17676.6300   113698.600  107995.600
+2023 . CL36  100753.2000  1249503.000  211709.500
+2023 . CL37    5437.4610    69859.060   34005.550
+2023 . CL38   24723.3200   313629.900  111307.800
+2023 . CL39    9546.1940   250485.200   42036.710
+2023 . CL4    40979.9400   512749.600  224181.190
+2023 . CL40    6058.0770   111848.300   36469.970
+2023 . CL41    6896.8410   121842.500   80340.630
+2023 . CL42    4916.9030    38911.070   37695.990
+2023 . CL43   12951.9300   658937.800  103811.400
+2023 . CL44   17112.1600   102988.500   82552.490
+2023 . CL45   10921.4800   101996.900  118294.500
+2023 . CL46    3195.8130    35166.410   32412.320
+2023 . CL47  182687.7000  1230096.000  363550.800
+2023 . CL48   13739.9900    11943.280   25636.010
+2023 . CL49    3794.7250    11042.520   13575.840
+2023 . CL5    23569.0400   450063.600  142514.610
+2023 . CL50   30144.1700   328113.500  112946.900
+2023 . CL51   22293.2600   279300.900   62302.310
+2023 . CL52   15046.4800   486043.400   69767.240
+2023 . CL53    6456.4650    44256.450   44124.370
+2023 . CL54   45420.5000   217026.500  127276.600
+2023 . CL55   10887.8100   150880.200   74125.300
+2023 . CL56   13838.3400   175331.000  100146.100
+2023 . CL57   22380.6500   146301.200   97074.270
+2023 . CL58   10942.3800   243384.600   92395.010
+2023 . CL59   40021.5900   391637.000  121301.400
+2023 . CL6    67377.6600   463933.300  157228.530
+2023 . CL60   24620.2000   141293.000  133194.600
+2023 . CL62    8948.0000   130613.500   93863.710
+2023 . CL63     724.1993     6028.389   16410.850
+2023 . CL64   12889.7000   198854.400   64431.680
+2023 . CL65   12137.7700   154917.500   77900.250
+2023 . CL66   24140.3200   306315.000   94727.020
+2023 . CL67   25924.9000   208761.200   89652.850
+2023 . CL68   17205.3200   474821.100   92128.260
+2023 . CL69   10905.4600   274248.700   64237.880
+2023 . CL7    43025.0400   479121.200  186786.000
+2023 . CL70  306977.3000  1532267.000  465350.800
+2023 . CL71   45333.2300   592920.400  150471.200
+2023 . CL72   14779.0300   172683.800   93490.360
+2023 . CL73   26209.4500   233548.600   95545.540
+2023 . CL74   35953.4100   403178.800  133199.300
+2023 . CL75    9948.8850    46395.060   67887.650
+2023 . CL76   59863.3900   168376.100  130208.100
+2023 . CL77    6957.5280    48826.960   26672.560
+2023 . CL78   10752.6700   105798.700   80569.590
+2023 . CL79  109810.9000   963903.500  276762.300
+2023 . CL8    16761.5940   226853.710  127418.480
+2023 . CL9    35264.3880   264726.820  221328.600
+2050 . CL0   140147.9800   610050.100  351403.850
+2050 . CL1    35041.3300   283733.000  194192.080
+2050 . CL10   15842.6700   290835.800  125143.200
+2050 . CL11    5907.3590   106766.100   51009.360
+2050 . CL12   16889.1110   250748.300   87805.060
+2050 . CL13   47641.9350   362542.210  249136.320
+2050 . CL14    5825.4290    42429.060   52957.400
+2050 . CL15   11695.5400   325147.000   77607.560
+2050 . CL16   13685.8700   625138.000  130298.200
+2050 . CL17    9666.3780    58080.020   54854.000
+2050 . CL18    3656.7000    15159.280   20559.040
+2050 . CL19    9869.5190   137885.200  111682.700
+2050 . CL2    18786.7450   243987.800  125615.410
+2050 . CL20    9700.1470   269147.100   70815.070
+2050 . CL21   26545.1700   320794.900  151509.900
+2050 . CL22   19527.7100   222660.800   80317.540
+2050 . CL23   41931.3700   128108.600   80336.090
+2050 . CL24    6061.8660   160762.400   39195.250
+2050 . CL25   31752.2100   394784.200  128981.600
+2050 . CL26   86823.7000   212778.750  110467.290
+2050 . CL27   16156.4600   113668.400   98086.670
+2050 . CL28   53839.6700   502199.500  144824.600
+2050 . CL29    1573.0880    11922.440   12812.590
+2050 . CL3    21033.0340   285314.100  160660.580
+2050 . CL30   12765.4500   150662.000   54599.080
+2050 . CL31    1151.1630     5452.623    7589.691
+2050 . CL32   29994.5200   300141.900  124342.500
+2050 . CL33   27423.4200   303826.400  138011.900
+2050 . CL34    8594.5850    46047.660   65391.910
+2050 . CL35   17676.6300   113698.600  107995.600
+2050 . CL36  100753.2000  1249503.000  211709.500
+2050 . CL37    5437.4610    69859.060   34005.550
+2050 . CL38   24723.3200   313629.900  111307.800
+2050 . CL39    9546.1940   250485.200   42036.710
+2050 . CL4    40979.9400   512749.600  224181.190
+2050 . CL40    6058.0770   111848.300   36469.970
+2050 . CL41    6896.8410   121842.500   80340.630
+2050 . CL42    4916.9030    38911.070   37695.990
+2050 . CL43   12951.9300   658937.800  103811.400
+2050 . CL44   17112.1600   102988.500   82552.490
+2050 . CL45   10921.4800   101996.900  118294.500
+2050 . CL46    3195.8130    35166.410   32412.320
+2050 . CL47  182687.7000  1230096.000  363550.800
+2050 . CL48   13739.9900    11943.280   25636.010
+2050 . CL49    3794.7250    11042.520   13575.840
+2050 . CL5    23569.0400   450063.600  142514.610
+2050 . CL50   30144.1700   328113.500  112946.900
+2050 . CL51   22293.2600   279300.900   62302.310
+2050 . CL52   15046.4800   486043.400   69767.240
+2050 . CL53    6456.4650    44256.450   44124.370
+2050 . CL54   45420.5000   217026.500  127276.600
+2050 . CL55   10887.8100   150880.200   74125.300
+2050 . CL56   13838.3400   175331.000  100146.100
+2050 . CL57   22380.6500   146301.200   97074.270
+2050 . CL58   10942.3800   243384.600   92395.010
+2050 . CL59   40021.5900   391637.000  121301.400
+2050 . CL6    67377.6600   463933.300  157228.530
+2050 . CL60   24620.2000   141293.000  133194.600
+2050 . CL62    8948.0000   130613.500   93863.710
+2050 . CL63     724.1993     6028.389   16410.850
+2050 . CL64   12889.7000   198854.400   64431.680
+2050 . CL65   12137.7700   154917.500   77900.250
+2050 . CL66   24140.3200   306315.000   94727.020
+2050 . CL67   25924.9000   208761.200   89652.850
+2050 . CL68   17205.3200   474821.100   92128.260
+2050 . CL69   10905.4600   274248.700   64237.880
+2050 . CL7    43025.0400   479121.200  186786.000
+2050 . CL70  306977.3000  1532267.000  465350.800
+2050 . CL71   45333.2300   592920.400  150471.200
+2050 . CL72   14779.0300   172683.800   93490.360
+2050 . CL73   26209.4500   233548.600   95545.540
+2050 . CL74   35953.4100   403178.800  133199.300
+2050 . CL75    9948.8850    46395.060   67887.650
+2050 . CL76   59863.3900   168376.100  130208.100
+2050 . CL77    6957.5280    48826.960   26672.560
+2050 . CL78   10752.6700   105798.700   80569.590
+2050 . CL79  109810.9000   963903.500  276762.300
+2050 . CL8    16761.5940   226853.710  127418.480
+2050 . CL9    35264.3880   264726.820  221328.600
+;

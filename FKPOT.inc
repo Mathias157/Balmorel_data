@@ -1,1 +1,0 @@
-FKPOT(CCC,FFF)= 0;
