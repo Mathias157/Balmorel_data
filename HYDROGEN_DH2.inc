@@ -1,5 +1,5 @@
 TABLE HYDROGEN_DH2(YYY, CCCRRRAAA) 'Yearly demand for hydrogen from the transport sector'
-             CL0
+            CL66
                 
 2012  24510999.8
 2013  24510999.8
