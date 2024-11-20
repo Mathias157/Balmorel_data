@@ -3,6 +3,6 @@ PARAMETER SOLEFLH(AAA) 'Full load hours for solar power (hours)'
 /
                   
                   
-CL0_A  1144.483247
-CL1_A  1104.351893
+CL0_A  1374.270061
+CL1_A  1345.509705
 /;

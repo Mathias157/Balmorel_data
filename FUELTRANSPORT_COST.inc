@@ -3,4 +3,6 @@ TABLE FUELTRANSPORT_COST(FFF, IRRRE, IRRRI) 'Cost of transporting one GJ of fuel
                                    
 STRAW . CL0         EPS  622.912232
 STRAW . CL1  622.912232         EPS
+WOOD . CL0          EPS  622.912232
+WOOD . CL1   622.912232         EPS
 ;
