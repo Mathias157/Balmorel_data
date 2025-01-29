@@ -1,5 +1,5 @@
 TABLE HYDROGEN_DH2(YYY, CCCRRRAAA) 'Yearly demand for hydrogen from the transport sector'
-            CL65
+          CL65_A
                 
 2050  12000000.0
 ;
