@@ -62,3 +62,5 @@ WOOD . CL7                                                                      
 WOOD . CL8                 120.858341   224.60119                           66.865331                                                                                                                          119.921572                                                                                                                                            EPS            
 WOOD . CL9                                         519.956921                                                                           241.31361                                                                                                  530.468044                                     283.081492  527.136957  593.354648                                             EPS
 ;
+* Fix m / km unit error!
+FUELTRANSPORT_COST(FFF, IRRRE, IRRRI) = FUELTRANSPORT_COST(FFF, IRRRE, IRRRI)/1000;
