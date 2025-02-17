@@ -12,3 +12,5 @@ TABLE XH2INVCOST(YYY, IRRRE, IRRRI) 'Investment cost in new H2 transmission capa
 2050 . CL8                3228.559282                                                                                                       
 2050 . CL9                3572.875629                              5291.87485                                                            0.0
 ;
+* New pipeline costs, instead of repurposed
+XH2INVCOST(YYY,IRRRE,IRRRI) = XH2INVCOST(YYY,IRRRE,IRRRI)*3.574466666666667;
