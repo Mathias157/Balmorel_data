@@ -1,6 +1,7 @@
 SET AAA(CCCRRRAAA)  'All areas'
 /                              
-FinA                           
+FinA     
+DE_A                          
 DE4-E_A                        
 DE4-N_A                        
 DE4-S_A                        

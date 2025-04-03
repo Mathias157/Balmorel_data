@@ -45,11 +45,12 @@ CYPRUS
 DK1                                                        
 DK2                                                        
                                                            
-FIN                                                        
+FIN   
+DE                                                        
 DE4-E                                                      
 DE4-N                                                      
 DE4-S                                                      
-DE4-W                                                      
+DE4-W                                                   
 NL                                                         
 NO1                                                        
 NO2                                                        
@@ -95,7 +96,8 @@ CY
                                                            
                                                            
 * Areas:                                                   
-FinA                                                       
+FinA     
+DE_A                                                  
 DE4-E_A                                                    
 DE4-N_A                                                    
 DE4-S_A                                                    

@@ -1,6 +1,7 @@
 SET RRRAAA(RRR,AAA) "Areas in regions"                                                                  
 /                                                                                                       
-FIN                                                                 .    FinA                           
+FIN                                                                 .    FinA                            
+DE                                                                  .    DE_A                        
 DE4-E                                                               .    DE4-E_A                        
 DE4-N                                                               .    DE4-N_A                        
 DE4-S                                                               .    DE4-S_A                        
@@ -8,8 +9,7 @@ DE4-W                                                               .    DE4-W_A
 SE1                                                                 .    SE1A                           
 SE2                                                                 .    SE2A                           
 SE3                                                                 .    SE3A                           
-SE4                                                                 .    SE4A                           
-                                                                                                        
+SE4                                                                 .    SE4A  
 EE                                                                  .    EE_A                           
 EE                                                                  .    EE_Enefit                      
 EE                                                                  .    EE_Kohtla_Jarve                

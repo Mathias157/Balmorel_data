@@ -3,7 +3,8 @@ SET RRR(CCCRRRAAA)  'All regions'
 DK1                              
 DK2                              
                                  
-FIN                              
+FIN      
+DE                        
 DE4-E                            
 DE4-N                            
 DE4-S                            
