@@ -5,7 +5,11 @@ DE                                                                  .    DE_A
 DE4-E                                                               .    DE4-E_A                        
 DE4-N                                                               .    DE4-N_A                        
 DE4-S                                                               .    DE4-S_A                        
-DE4-W                                                               .    DE4-W_A                        
+DE4-W                                                               .    DE4-W_A                                             
+FI                                                                  .    FI_A                        
+DK                                                                  .    DK_A                        
+NO                                                                  .    NO_A   
+SE                                                                  .    SE_A                           
 SE1                                                                 .    SE1A                           
 SE2                                                                 .    SE2A                           
 SE3                                                                 .    SE3A                           
@@ -1449,6 +1453,30 @@ CY                                                                  .    CY_VRE-
 CY                                                                  .    CY_VRE-ONS_SP198-HH150_RG1     
 CY                                                                  .    CY_VRE-ONS_SP198-HH150_RG2     
 CY                                                                  .    CY_VRE-ONS_SP198-HH150_RG3     
+
+AL . AL_OFF
+BA . BA_OFF
+BE . BE_OFF
+DE . DE_OFF
+DK . DK_OFF
+EE . EE_OFF
+ES . ES_OFF
+FI . FI_OFF
+FR . FR_OFF
+GR . GR_OFF
+IE . IE_OFF
+IT . IT_OFF
+LT . LT_OFF
+LV . LV_OFF
+ME . ME_OFF
+NL . NL_OFF
+NO . NO_OFF
+PL . PL_OFF
+PT . PT_OFF
+RO . RO_OFF
+SE . SE_OFF
+SI . SI_OFF
+UK . UK_OFF
                                                                                                         
 /;                                                                                                      
                                                                                                         

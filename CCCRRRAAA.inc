@@ -46,7 +46,13 @@ DK1
 DK2                                                        
                                                            
 FIN   
+
+DK
+FI
+NO
+SE
 DE                                                        
+
 DE4-E                                                      
 DE4-N                                                      
 DE4-S                                                      
@@ -96,8 +102,36 @@ CY
                                                            
                                                            
 * Areas:                                                   
+DE_A    
+FI_A
+DK_A
+NO_A
+SE_A
+AL_OFF
+BA_OFF
+BE_OFF
+DE_OFF
+DK_OFF
+EE_OFF
+ES_OFF
+FI_OFF
+FR_OFF
+GR_OFF
+IE_OFF
+IT_OFF
+LT_OFF
+LV_OFF
+ME_OFF
+NL_OFF
+NO_OFF
+PL_OFF
+PT_OFF
+RO_OFF
+SE_OFF
+SI_OFF
+UK_OFF
+
 FinA     
-DE_A                                                  
 DE4-E_A                                                    
 DE4-N_A                                                    
 DE4-S_A                                                    
