@@ -1,4 +1,4 @@
-* Weather year 2001 from Antares
+* Weather year 2000
 TABLE WND_VAR_T1(SSS,TTT,AAA) "Variation of the wind generation"
                 AL_A      AT_A      BA_A          BE_A          BG_A      CH_A      CZ_A      DE_A      DK_A      EE_A      ES_A      FI_A      FR_A      GR_A      HR_A          HU_A          IE_A      IT_A          LT_A          LU_A      LV_A          ME_A          MK_A      NL_A      NO_A          PL_A      PT_A      RO_A      RS_A      SE_A      SI_A      SK_A      UK_A
 S01 . T001  0.647242  0.036832  0.430537  5.368635e-02  9.218126e-01  0.061374  0.026799  0.081549  0.134318  0.018454  0.177609  0.044620  0.058194  0.609765  0.757555  1.727388e-02  1.131393e-01  0.268163  1.848061e-02  6.056584e-03  0.110635  6.343808e-01  9.499999e-01  0.149877  0.467165  4.838782e-02  0.155291  0.450140  0.340423  0.087672  0.261629  0.025925  0.194287

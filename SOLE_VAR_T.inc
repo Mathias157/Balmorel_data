@@ -1,4 +1,4 @@
-* Weather year 2001 from Antares
+* Weather year 2000
 TABLE SOLE_VAR_T1(SSS,TTT,AAA) "Variation of the solar generation"
                     AL_A          AT_A          BA_A          BE_A          BG_A          CH_A          CZ_A          DE_A          DK_A          EE_A          ES_A          FI_A          FR_A          GR_A          HR_A          HU_A          IE_A          IT_A          LT_A          LU_A          LV_A          ME_A          MK_A          NL_A          NO_A          PL_A          PT_A          RO_A          RS_A          SE_A          SI_A          SK_A          UK_A
 S01 . T001  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00
