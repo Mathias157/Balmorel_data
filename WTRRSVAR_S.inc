@@ -1,4 +1,4 @@
-* Weather year 19 from Antares
+* Weather year 2000
 TABLE WTRRSVAR_S1(SSS,AAA)  'Variation of the water inflow to reservoirs'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
          CH_A     DE_A      FR_A
 S01   78911.0  22344.0  547540.0

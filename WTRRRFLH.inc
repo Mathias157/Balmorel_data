@@ -1,4 +1,4 @@
-* Weather year 19 from Antares
+* Weather year 2000
 PARAMETER WTRRRFLH(AAA) 'Full load hours for hydro run-of-river plants (hours)'                                                                                                       
 /
 CH_A		5442.94
