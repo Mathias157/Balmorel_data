@@ -1,9 +1,6 @@
 SET CCCRRR(CCC,RRR) "Regions in countries"                         
 /                                                                  
-DENMARK                                                .    DK2    
-DENMARK                                                .    DK1    
 DENMARK                                                .    DK    
-FINLAND                                                .    FIN   
 FINLAND                                                .    FI    
 GERMANY                                                .    DE  
 NETHERLANDS                                            .    NL     
@@ -11,17 +8,8 @@ ESTONIA                                                .    EE
 LATVIA                                                 .    LV     
 LITHUANIA                                              .    LT     
 POLAND                                                 .    PL     
-NORWAY                                                 .    NO    
-NORWAY                                                 .    NO1    
-NORWAY                                                 .    NO2    
-NORWAY                                                 .    NO3    
-NORWAY                                                 .    NO4    
-NORWAY                                                 .    NO5    
-SWEDEN                                                 .    SE    
-SWEDEN                                                 .    SE1    
-SWEDEN                                                 .    SE2    
-SWEDEN                                                 .    SE3    
-SWEDEN                                                 .    SE4    
+NORWAY                                                 .    NO     
+SWEDEN                                                 .    SE     
 UNITED_KINGDOM                                         .    UK     
 BELGIUM                                                .    BE     
 FRANCE                                                 .    FR     
