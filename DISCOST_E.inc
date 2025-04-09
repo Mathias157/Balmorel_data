@@ -1,50 +1,40 @@
-PARAMETER DISCOST_E(RRR)  'Cost of electricity distribution (Money/MWh)'     
-/                                                                            
-DK1                                                                      5   
-DK2                                                                      5   
-FIN                                                                      5   
-DE4-E                                                                    5   
-DE4-N                                                                    5   
-DE4-S                                                                    5   
-DE4-W                                                                    5   
-NL                                                                       5   
-NO1                                                                      5   
-NO2                                                                      5   
-NO3                                                                      5   
-NO4                                                                      5   
-NO5                                                                      5   
-SE1                                                                      5   
-SE2                                                                      5   
-SE3                                                                      5   
-SE4                                                                      5   
-FR                                                                       5   
-BE                                                                       5   
-UK                                                                       5   
-EE                                                                       5   
-LV                                                                       5   
-LT                                                                       5   
-PL                                                                       5   
-IT                                                                       5   
-CH                                                                       5   
-AT                                                                       5   
-CZ                                                                       5   
-ES                                                                       5   
-PT                                                                       5   
-SK                                                                       5   
-HU                                                                       5   
-SI                                                                       5   
-HR                                                                       5   
-RO                                                                       5   
-BG                                                                       5   
-GR                                                                       5   
-IE                                                                       5   
-LU                                                                       5   
-AL                                                                       5   
-ME                                                                       5   
-MK                                                                       5   
-BA                                                                       5   
-RS                                                                       5   
-TR                                                                       5   
-MT                                                                       5   
-CY                                                                       5   
-/;                                                                           
+PARAMETER DISCOST_E(RRR) 'Cost of electricity distribution (Money/MWh)'
+
+/
+        
+        
+AL   5.0
+AT   5.0
+BA   5.0
+BE   5.0
+BG   5.0
+CH   5.0
+CZ   5.0
+DE   5.0
+DK   5.0
+EE   5.0
+ES   5.0
+FI   5.0
+FR   5.0
+GR   5.0
+HR   5.0
+HU   5.0
+IE   5.0
+IT   5.0
+LT   5.0
+LU   5.0
+LV   5.0
+ME   5.0
+MK   5.0
+NL   5.0
+NO   5.0
+PL   5.0
+PT   5.0
+RO   5.0
+ROW  5.0
+RS   5.0
+SE   5.0
+SI   5.0
+SK   5.0
+UK   5.0
+/;
