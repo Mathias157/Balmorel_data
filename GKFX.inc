@@ -1764,3 +1764,34 @@
 *GKFX(YYY,AAA,'Back-up-power') =50000;
 GKFX(YYY,AAA,GGG) = GKFX1(AAA,GGG,YYY);
 GKFX1(AAA,GGG,YYY)=0;
+
+
+// Aggregate to simple heat region
+GKFX(YYY, 'DK_A', GGG) = GKFX(YYY, 'DK1_Large', GGG) + GKFX(YYY, 'DK1_MedSmall', GGG) + GKFX(YYY, 'DK1_Medium', GGG) + GKFX(YYY, 'DK1_NoDH', GGG) + GKFX(YYY, 'DK2_Large', GGG) + GKFX(YYY, 'DK2_MedSmall', GGG) + GKFX(YYY, 'DK2_Medium', GGG) + GKFX(YYY, 'DK2_NoDH', GGG) + GKFX(YYY, 'DK1_Small', GGG) + GKFX(YYY, 'DK2_Small', GGG) + GKFX(YYY, 'DK1_Rural', GGG) + GKFX(YYY, 'DK2_Rural', GGG);
+GKFX(YYY, 'DK_Offshore', GGG) = GKFX(YYY, 'DK1_Offshore', GGG) + GKFX(YYY, 'DK2_Offshore', GGG);
+
+GKFX(YYY, 'DE_A', GGG) = GKFX(YYY, 'DE4-E_A', GGG) + GKFX(YYY, 'DE4-N_A', GGG) + GKFX(YYY, 'DE4-S_A', GGG) + GKFX(YYY, 'DE4-W_A', GGG);
+GKFX(YYY, 'DE_Offshore', GGG) = GKFX(YYY, 'DE4-E_Offshore', GGG) + GKFX(YYY, 'DE4-N_Offshore', GGG) + GKFX(YYY, 'DE4-W_Offshore', GGG);
+
+GKFX(YYY, 'NO_A', GGG) = GKFX(YYY, 'NO1_A1', GGG) + GKFX(YYY, 'NO2_A1', GGG) + GKFX(YYY, 'NO3_A1', GGG) + GKFX(YYY, 'NO4_A1', GGG) + GKFX(YYY, 'NO5_A1', GGG) + GKFX(YYY, 'NO1_A2', GGG) + GKFX(YYY, 'NO2_A2', GGG) + GKFX(YYY, 'NO3_A2', GGG) + GKFX(YYY, 'NO4_A2', GGG) + GKFX(YYY, 'NO5_A2', GGG) + GKFX(YYY, 'NO1_A3', GGG) + GKFX(YYY, 'NO3_A3', GGG);
+
+GKFX(YYY, 'SE_A', GGG) = GKFX(YYY, 'SE1A', GGG) + GKFX(YYY, 'SE2A', GGG) + GKFX(YYY, 'SE3A', GGG) + GKFX(YYY, 'SE4A', GGG) + GKFX(YYY, 'SE1_medium', GGG) + GKFX(YYY, 'SE1_small', GGG) + GKFX(YYY, 'SE2_medium', GGG) + GKFX(YYY, 'SE2_small', GGG) + GKFX(YYY, 'SE3_large', GGG) + GKFX(YYY, 'SE3_medium', GGG) + GKFX(YYY, 'SE3_small', GGG) + GKFX(YYY, 'SE4_large', GGG) + GKFX(YYY, 'SE4_medium', GGG) + GKFX(YYY, 'SE4_small', GGG);
+
+GKFX(YYY, 'FI_A', GGG) = GKFX(YYY, 'FinA', GGG) + GKFX(YYY, 'FI_large', GGG) + GKFX(YYY, 'FI_large_gas', GGG) + GKFX(YYY, 'FI_medium', GGG) + GKFX(YYY, 'FI_medium_gas', GGG) + GKFX(YYY, 'FI_small', GGG) + GKFX(YYY, 'FI_small_gas', GGG);
+
+GKFX(YYY, 'NL_Offshore', GGG) = GKFX(YYY, 'NL_Offshore', GGG);
+
+GKFX(YYY, 'PL_A', GGG) = GKFX(YYY, 'PL_A', GGG) + GKFX(YYY, 'PL_Rural', GGG);
+GKFX(YYY, 'PL_Offshore', GGG) = GKFX(YYY, 'PL_Offshore', GGG);
+
+GKFX(YYY, 'EE_A', GGG) = GKFX(YYY, 'EE_A', GGG) + GKFX(YYY, 'EE_Enefit', GGG) + GKFX(YYY, 'EE_Kohtla_Jarve', GGG) + GKFX(YYY, 'EE_Sillamae', GGG) + GKFX(YYY, 'EE_Narva', GGG) + GKFX(YYY, 'EE_Parnu', GGG) + GKFX(YYY, 'EE_Rural', GGG) + GKFX(YYY, 'EE_Tallinn', GGG) + GKFX(YYY, 'EE_Tartu', GGG) + GKFX(YYY, 'EE_Urban', GGG);
+
+GKFX(YYY, 'LT_A', GGG) = GKFX(YYY, 'LT_A', GGG) + GKFX(YYY, 'LT_KauU', GGG) + GKFX(YYY, 'LT_KlaU', GGG) + GKFX(YYY, 'LT_Other_DH', GGG) + GKFX(YYY, 'LT_Panevezys', GGG) + GKFX(YYY, 'LT_SiaU', GGG) + GKFX(YYY, 'LT_VilU', GGG);
+
+GKFX(YYY, 'LV_A', GGG) = GKFX(YYY, 'LV_A', GGG) + GKFX(YYY, 'LV_Other_DH', GGG) + GKFX(YYY, 'LV_RigaR', GGG);
+
+GKFX(YYY, 'FR_Offshore', GGG) = GKFX(YYY, 'FR_Offshore', GGG);
+
+GKFX(YYY, 'BE_Offshore', GGG) = GKFX(YYY, 'BE_Offshore', GGG);
+
+GKFX(YYY, 'ROW_A', GGG) = GKFX(YYY, 'TR_A', GGG) + GKFX(YYY, 'MT_A', GGG) + GKFX(YYY, 'CY_A', GGG);
