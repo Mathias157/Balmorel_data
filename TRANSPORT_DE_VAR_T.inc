@@ -262,7 +262,7 @@ DE_VAR_T('TR','TRANS_BUS',SSS,TTT)=DE_VAR_T('DK1','TRANS_BUS',SSS,TTT);
 DE_VAR_T('MT','TRANS_BUS',SSS,TTT)=DE_VAR_T('DK1','TRANS_BUS',SSS,TTT);                                                                                                                                                                                                                   
 DE_VAR_T('CY','TRANS_BUS',SSS,TTT)=DE_VAR_T('DK1','TRANS_BUS',SSS,TTT);                                                                                                                                                                                                                   
 
-// Aggregate DE_VAR_T for new regions with multiple old regions (copilot, gpt-40)
+* Aggregate DE_VAR_T for new regions with multiple old regions (copilot, gpt-40)
 
 DE_VAR_T('DK', 'TRANS_BUS', SSS, TTT) = DE_VAR_T('DK1', 'TRANS_BUS', SSS, TTT) + DE_VAR_T('DK2', 'TRANS_BUS', SSS, TTT);
 

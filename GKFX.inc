@@ -1766,7 +1766,7 @@ GKFX(YYY,AAA,GGG) = GKFX1(AAA,GGG,YYY);
 GKFX1(AAA,GGG,YYY)=0;
 
 
-// Aggregate to simple heat region
+* Aggregate to simple heat region
 GKFX(YYY, 'DK_A', GGG) = GKFX(YYY, 'DK1_Large', GGG) + GKFX(YYY, 'DK1_MedSmall', GGG) + GKFX(YYY, 'DK1_Medium', GGG) + GKFX(YYY, 'DK1_NoDH', GGG) + GKFX(YYY, 'DK2_Large', GGG) + GKFX(YYY, 'DK2_MedSmall', GGG) + GKFX(YYY, 'DK2_Medium', GGG) + GKFX(YYY, 'DK2_NoDH', GGG) + GKFX(YYY, 'DK1_Small', GGG) + GKFX(YYY, 'DK2_Small', GGG) + GKFX(YYY, 'DK1_Rural', GGG) + GKFX(YYY, 'DK2_Rural', GGG);
 GKFX(YYY, 'DK_OFF', GGG) = GKFX(YYY, 'DK1_Offshore', GGG) + GKFX(YYY, 'DK2_Offshore', GGG);
 

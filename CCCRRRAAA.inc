@@ -108,6 +108,7 @@ FI_A
 DK_A
 NO_A
 SE_A
+ROW_A
 AL_OFF
 BA_OFF
 BE_OFF
@@ -131,6 +132,7 @@ RO_OFF
 SE_OFF
 SI_OFF
 UK_OFF
+ROW_OFF
 
 FinA     
 DE4-E_A                                                    

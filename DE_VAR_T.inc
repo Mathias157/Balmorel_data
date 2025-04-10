@@ -8741,6 +8741,6 @@ DE_VAR_T(RRR,"RESE",SSS,TTT)=DE_VAR_T1(SSS,TTT,RRR);
 DE_VAR_T(RRR,"OTHER",SSS,TTT)=DE_VAR_T1(SSS,TTT,RRR);
 DE_VAR_T1(SSS,TTT,RRR)=0;
 
-// Flat profiles for industry and datacenter
+* Flat profiles for industry and datacenter
 DE_VAR_T(RRR,"PII",SSS,TTT)=1;
 DE_VAR_T(RRR,"DATACENTER",SSS,TTT)=1;
