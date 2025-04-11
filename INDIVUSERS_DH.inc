@@ -216,3 +216,8 @@ DH1_INDIVHEATING(DHUSER, 'NO_IDVU-SPACEHEAT', YYY) = DH1_INDIVHEATING(DHUSER, 'N
 DH1_INDIVHEATING(DHUSER, 'SE_IDVU-SPACEHEAT', YYY) = DH1_INDIVHEATING(DHUSER, 'SE1_IDVU-SPACEHEAT', YYY) + DH1_INDIVHEATING(DHUSER, 'SE2_IDVU-SPACEHEAT', YYY) + DH1_INDIVHEATING(DHUSER, 'SE3_IDVU-SPACEHEAT', YYY) + DH1_INDIVHEATING(DHUSER, 'SE4_IDVU-SPACEHEAT', YYY);
 
 DH1_INDIVHEATING(DHUSER, 'ROW_IDVU-SPACEHEAT', YYY) = DH1_INDIVHEATING(DHUSER, 'TR_IDVU-SPACEHEAT', YYY) + DH1_INDIVHEATING(DHUSER, 'MT_IDVU-SPACEHEAT', YYY) + DH1_INDIVHEATING(DHUSER, 'CY_IDVU-SPACEHEAT', YYY);
+
+
+     
+DH(YYY,AAA,DHUSER)$DH1_INDIVHEATING(DHUSER,AAA,YYY)  = DH1_INDIVHEATING(DHUSER,AAA,YYY);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+DH1_INDIVHEATING(DHUSER,AAA,YYY)=0;           
