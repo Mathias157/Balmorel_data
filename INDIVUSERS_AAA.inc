@@ -1,5 +1,6 @@
 SET AAA(CCCRRRAAA)  'All areas'                                                                                                                                            
 /                                                                                                                                                                          
+                                                                                                                                                                  
 AL_IDVU-HOTWTR
 AT_IDVU-HOTWTR
 BA_IDVU-HOTWTR

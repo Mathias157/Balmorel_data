@@ -1,6 +1,6 @@
 SET INDIVUSERS_AAA(CCCRRRAAA)  'Individual user areas'                                                                                                                                       
 /   
-                                                                                                                                                                       
+                                                                                                                                                                  
 AL_IDVU-HOTWTR
 AT_IDVU-HOTWTR
 BA_IDVU-HOTWTR
@@ -67,6 +67,50 @@ SE_IDVU-SPACEHEAT
 SI_IDVU-SPACEHEAT
 SK_IDVU-SPACEHEAT
 UK_IDVU-SPACEHEAT 
+
+
+DE4-E_IDVU-HOTWTR 
+DE4-N_IDVU-HOTWTR 
+DE4-S_IDVU-HOTWTR 
+DE4-W_IDVU-HOTWTR 
+DK1_IDVU-HOTWTR   
+DK2_IDVU-HOTWTR   
+FIN_IDVU-HOTWTR
+NO1_IDVU-HOTWTR
+NO2_IDVU-HOTWTR
+NO3_IDVU-HOTWTR
+NO4_IDVU-HOTWTR
+NO5_IDVU-HOTWTR
+SE1_IDVU-HOTWTR
+SE2_IDVU-HOTWTR
+SE3_IDVU-HOTWTR
+SE4_IDVU-HOTWTR
+
+DE4-E_IDVU-SPACEHEAT 
+DE4-N_IDVU-SPACEHEAT 
+DE4-S_IDVU-SPACEHEAT 
+DE4-W_IDVU-SPACEHEAT 
+DK1_IDVU-SPACEHEAT   
+DK2_IDVU-SPACEHEAT   
+FIN_IDVU-SPACEHEAT
+NO1_IDVU-SPACEHEAT
+NO2_IDVU-SPACEHEAT
+NO3_IDVU-SPACEHEAT
+NO4_IDVU-SPACEHEAT
+NO5_IDVU-SPACEHEAT
+SE1_IDVU-SPACEHEAT
+SE2_IDVU-SPACEHEAT
+SE3_IDVU-SPACEHEAT
+SE4_IDVU-SPACEHEAT 
+TR_IDVU-HOTWTR
+TR_IDVU-SPACEHEAT
+MT_IDVU-HOTWTR
+MT_IDVU-SPACEHEAT
+CY_IDVU-SPACEHEAT
+CY_IDVU-HOTWTR
+
+ROW_IDVU-HOTWTR
+ROW_IDVU-SPACEHEAT
 
 
                                                                                                                                                                                              

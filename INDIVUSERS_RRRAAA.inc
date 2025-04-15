@@ -70,7 +70,8 @@ SE . SE_IDVU-SPACEHEAT
 SI . SI_IDVU-SPACEHEAT
 SK . SK_IDVU-SPACEHEAT
 UK . UK_IDVU-SPACEHEAT     
-                                                                                                                                                                                                                    
+
+                                                                                                                                                                                                  
 $label    NO_INDIVUSERS_AAA                                                                                                                                                                                                 
 /;                                                                                                                                                                                                                          
 $offembedded                                                                                                                                                                                                                
