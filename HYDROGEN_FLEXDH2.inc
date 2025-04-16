@@ -84,3 +84,17 @@ HYDROGEN_FLEXDH2('2050','DK2') =  (internal_help('2050','DK2')/(internal_help('2
                                                                               
 SCALAR THETA_FLEX_DH2 'The fraction of demand that can be allocated flexibly (fraction between 0 and 1)';
 THETA_FLEX_DH2 = 1; 
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+* Aggregate HYDROGEN_DH2 for areas with different prefixes
+HYDROGEN_FLEXDH2(YYY, 'DK')  = HYDROGEN_FLEXDH2(YYY, 'DK1') + HYDROGEN_FLEXDH2(YYY, 'DK2');
+ 
+HYDROGEN_FLEXDH2(YYY, 'DE')  = HYDROGEN_FLEXDH2(YYY, 'DE4-E') + HYDROGEN_FLEXDH2(YYY, 'DE4-N') + HYDROGEN_FLEXDH2(YYY, 'DE4-S') + HYDROGEN_FLEXDH2(YYY, 'DE4-W');
+ 
+HYDROGEN_FLEXDH2(YYY, 'FI')  = HYDROGEN_FLEXDH2(YYY, 'FIN');
+ 
+HYDROGEN_FLEXDH2(YYY, 'NO')  = HYDROGEN_FLEXDH2(YYY, 'NO1') + HYDROGEN_FLEXDH2(YYY, 'NO2') + HYDROGEN_FLEXDH2(YYY, 'NO3') + HYDROGEN_FLEXDH2(YYY, 'NO4') + HYDROGEN_FLEXDH2(YYY, 'NO5');
+ 
+HYDROGEN_FLEXDH2(YYY, 'SE')  = HYDROGEN_FLEXDH2(YYY, 'SE1') + HYDROGEN_FLEXDH2(YYY, 'SE2') + HYDROGEN_FLEXDH2(YYY, 'SE3') + HYDROGEN_FLEXDH2(YYY, 'SE4');
+
+HYDROGEN_FLEXDH2(YYY, 'ROW') = HYDROGEN_FLEXDH2(YYY, 'TR') + HYDROGEN_FLEXDH2(YYY, 'MT') + HYDROGEN_FLEXDH2(YYY, 'CY');
