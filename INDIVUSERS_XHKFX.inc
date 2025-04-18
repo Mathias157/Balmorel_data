@@ -4,28 +4,17 @@ PARAMETER XHKFX(YYY,IAAAE,IAAAI) 'Initial heat transmission capacicty between ar
 *Heat transmission capacity from water heating area to space heating areas is unlimited (one way flow!)                 
 $ifi  %GROUP_DEMAND_SHIFT%==yes  $goto INDIVUSERS_AAA                                                                   
 XHKFX(Y,'BE_IDVU-HOTWTR','BE_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
-XHKFX(Y,'DE4-E_IDVU-HOTWTR','DE4-E_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                        
-XHKFX(Y,'DE4-N_IDVU-HOTWTR','DE4-N_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                        
-XHKFX(Y,'DE4-S_IDVU-HOTWTR','DE4-S_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                        
-XHKFX(Y,'DE4-W_IDVU-HOTWTR','DE4-W_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                        
-XHKFX(Y,'DK1_IDVU-HOTWTR','DK1_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'DK2_IDVU-HOTWTR','DK2_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
+XHKFX(Y,'DE_IDVU-HOTWTR','DE_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                       
+XHKFX(Y,'DK_IDVU-HOTWTR','DK_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
 XHKFX(Y,'EE_IDVU-HOTWTR','EE_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
-XHKFX(Y,'FIN_IDVU-HOTWTR','FIN_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
+XHKFX(Y,'FI_IDVU-HOTWTR','FI_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
 XHKFX(Y,'FR_IDVU-HOTWTR','FR_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
 XHKFX(Y,'LT_IDVU-HOTWTR','LT_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
 XHKFX(Y,'LV_IDVU-HOTWTR','LV_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
 XHKFX(Y,'NL_IDVU-HOTWTR','NL_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
-XHKFX(Y,'NO1_IDVU-HOTWTR','NO1_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'NO2_IDVU-HOTWTR','NO2_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'NO3_IDVU-HOTWTR','NO3_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'NO4_IDVU-HOTWTR','NO4_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'NO5_IDVU-HOTWTR','NO5_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
+XHKFX(Y,'NO_IDVU-HOTWTR','NO_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
 XHKFX(Y,'PL_IDVU-HOTWTR','PL_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
-XHKFX(Y,'SE1_IDVU-HOTWTR','SE1_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'SE2_IDVU-HOTWTR','SE2_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'SE3_IDVU-HOTWTR','SE3_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
-XHKFX(Y,'SE4_IDVU-HOTWTR','SE4_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
+XHKFX(Y,'SE_IDVU-HOTWTR','SE_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                            
 XHKFX(Y,'UK_IDVU-HOTWTR','UK_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
 XHKFX(Y,'IT_IDVU-HOTWTR','IT_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
 XHKFX(Y,'CH_IDVU-HOTWTR','CH_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
@@ -47,9 +36,7 @@ XHKFX(Y,'ME_IDVU-HOTWTR','ME_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;
 XHKFX(Y,'MK_IDVU-HOTWTR','MK_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
 XHKFX(Y,'BA_IDVU-HOTWTR','BA_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
 XHKFX(Y,'RS_IDVU-HOTWTR','RS_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
-XHKFX(Y,'TR_IDVU-HOTWTR','TR_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
-XHKFX(Y,'MT_IDVU-HOTWTR','MT_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
-XHKFX(Y,'CY_IDVU-HOTWTR','CY_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
+XHKFX(Y,'ROW_IDVU-HOTWTR','ROW_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                              
                                                                                                                         
 $label INDIVUSERS_AAA                                                                                                   
                                                                                                                         

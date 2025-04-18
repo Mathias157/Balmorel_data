@@ -1,6 +1,12 @@
 PARAMETER DISCOST_H(AAA)  'Cost of heat distribution (Money/MWh)'     
 * Areas merged, average values used                                   
-/                                                                     
+/          
+DK_A                                                              2   
+DE_A                                                              2   
+FI_A                                                              2   
+NO_A                                                              2   
+SE_A                                                              2   
+ROW_A                                                             2   
 DK1_Large                                                         2   
 DK1_Rural                                                         2   
 DK1_Medium                                                        2   
