@@ -55,4 +55,4 @@ FUELPRICE(YYY,AAA,FFF) = SUM(RRR, FUELPRICE1(YYY,RRR,FFF)*RRRAAA(RRR,AAA));
 FUELPRICE('2015',AAA,FFF)$(FUELPRICE('2015',AAA,FFF) EQ 0)=FUELPRICE('2015','DK_A',FFF);                                                                                                                                                                                                                    
 FUELPRICE(YYY,AAA,FFF)$((YYY.val > 2014) and (FUELPRICE(YYY,AAA,FFF) EQ 0))=FUELPRICE(YYY,'DK_A',FFF);                                                                                                     
 
-FUELPRICE(YYY,AAA,'DUMMY') = 3000*3.6;
+FUELPRICE(YYY,AAA,'DUMMY') = 3000/3.6;
