@@ -1296,6 +1296,39 @@ ZIEL-4_ST_COAL_BP
                                               
                                               
                                               
+ GNR_RES_WTR_PMP_AL_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_AT_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_BA_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_BE_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_BG_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_CH_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_CZ_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_DE_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_DK_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_EE_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_ES_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_FI_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_FR_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_GR_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_HR_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_HU_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_IE_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_IT_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_LT_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_LU_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_LV_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_ME_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_MK_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_NL_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_NO_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_PL_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_PT_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_RO_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_RS_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_SE_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_SI_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_SK_E-80_Y-2020                                                             
+ GNR_RES_WTR_PMP_UK_E-80_Y-2020                                                             
                                               
                                               
                                               
