@@ -1,5 +1,6 @@
 SET S(SSS)  'Seasons in the simulation'                                                       
 
 /   
-S02,S06,S15,S21,S28,S34,S41,S47     
+* 8 steps:
+S01 , S07 , S14 , S20 , S27 , S33 , S40 , S46 
 /;                                                                                             
