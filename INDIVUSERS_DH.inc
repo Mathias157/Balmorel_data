@@ -221,6 +221,12 @@ DH1_INDIVHEATING(DHUSER, 'ROW_IDVU-SPACEHEAT', YYY) = DH1_INDIVHEATING(DHUSER, '
      
 DH(YYY,AAA,DHUSER)$DH1_INDIVHEATING(DHUSER,AAA,YYY)  = DH1_INDIVHEATING(DHUSER,AAA,YYY);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 DH1_INDIVHEATING(DHUSER,AAA,YYY)=0;           
+
+
+
+
+
+
 * ------ DO NOT MODIFY THIS LINE OR BELOW ------
 * Weather year 2000 factors relative to normal weather year 2011, based on sum of heat demand throughout regions
 DH(YYY, 'AL_IDVU-SPACEHEAT', 'TERTIARY'   ) = 1.001475036002476*DH(YYY, 'AL_IDVU-SPACEHEAT', 'TERTIARY'   );

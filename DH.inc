@@ -29,6 +29,12 @@ RESH . UK_A                                                                     
 ;
 DH(YYY,AAA,DHUSER)  = DH1(DHUSER,AAA,YYY);
 DH1(DHUSER,AAA,YYY)=0;
+
+
+
+
+
+
 * ------ DO NOT MODIFY THIS LINE OR BELOW ------
 * Weather year 2000 factors relative to normal weather year 2011, based on sum of heat demand throughout regions
 DH(YYY, AAA, DHUSER)$RRRAAA('AL', AAA) = 0.8*1.001475036002476*DH(YYY, AAA, DHUSER)$RRRAAA('AL', AAA) + 0.2*DH(YYY, AAA, DHUSER)$RRRAAA('AL', AAA);

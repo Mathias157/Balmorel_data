@@ -1,36 +1,36 @@
 SET C(CCC)  'Countries in the simulation'    
 /
-DENMARK                              
-FINLAND                              
+* DENMARK                              
+* FINLAND                              
 GERMANY                              
-NETHERLANDS                          
-ESTONIA                              
-LATVIA                               
-LITHUANIA                            
-POLAND                               
-NORWAY                               
-SWEDEN                               
-UNITED_KINGDOM                       
-BELGIUM                              
+* NETHERLANDS                          
+* ESTONIA                              
+* LATVIA                               
+* LITHUANIA                            
+* POLAND                               
+* NORWAY                               
+* SWEDEN                               
+* UNITED_KINGDOM                       
+* BELGIUM                              
 FRANCE                               
-ITALY                                
-SWITZERLAND                          
-AUSTRIA                              
-CZECH_REPUBLIC                       
+* ITALY                                
+* SWITZERLAND                          
+* AUSTRIA                              
+* CZECH_REPUBLIC                       
 SPAIN                                
-PORTUGAL                             
-SLOVAKIA                             
-HUNGARY                              
-SLOVENIA                             
-CROATIA                              
-ROMANIA                              
-BULGARIA                             
-GREECE                               
-IRELAND                              
-LUXEMBOURG                           
-ALBANIA                              
-MONTENEGRO                           
-NORTH_MACEDONIA                      
-BOSNIA_AND_HERZEGOVINA               
-SERBIA                               
+* PORTUGAL                             
+* SLOVAKIA                             
+* HUNGARY                              
+* SLOVENIA                             
+* CROATIA                              
+* ROMANIA                              
+* BULGARIA                             
+* GREECE                               
+* IRELAND                              
+* LUXEMBOURG                           
+* ALBANIA                              
+* MONTENEGRO                           
+* NORTH_MACEDONIA                      
+* BOSNIA_AND_HERZEGOVINA               
+* SERBIA                               
 /;                                           
