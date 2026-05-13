@@ -168,7 +168,5 @@ DE(YYY,RRR,'OTHER')$(YYY.VAL GT 2020) = DE('2020',RRR,'OTHER') ;
 
 * Datacenter update
 DE(YYY,RRR,'DATACENTER')=0;
-$onmulti
 $if     EXIST '../data/DE_DATACENTER.inc' $INCLUDE      '../data/DE_DATACENTER.inc';
 $if not EXIST '../data/DE_DATACENTER.inc'    $INCLUDE '../../base/data/DE_DATACENTER.inc';
-$offmulti
