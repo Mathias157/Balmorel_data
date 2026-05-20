@@ -39,3 +39,5 @@ SK     6500.0                                  6500.0                           
 UK                     8333.0                                                                                                                              331.0                                                                                                                           
 $label unconstrained
 ;
+* Ensure symmetry
+XH2MAXINV(IRRRE,IRRRI)=MAX(XH2MAXINV(IRRRI,IRRRE),XH2MAXINV(IRRRE,IRRRI));
