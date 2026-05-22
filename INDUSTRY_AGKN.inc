@@ -538,16 +538,20 @@ ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-HT-NODH')=1)  and ALLOWEDINV_IND('D
 ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-MT-NODH')=1)  and ALLOWEDINV_IND('DK1_IND-MT-NODH',G))         = yes ;                                                                                                                           
 ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-LT-NODH')=1)  and ALLOWEDINV_IND('DK1_IND-LT-NODH',G))         = yes ;                                                                                                                           
                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                              
-AGKN(AAA,G)=YES$(ALLOWEDINV_IND(AAA,G) OR AGKN(AAA,G));                                                                                                                                                                                       
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-*Assigning Estonian peat CHP options.                                                                                                                                                                                                         
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2020')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2030')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2040')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2050')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2020')=YES;                                                                                                                                                                         
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2030')=YES;                                                                                                                                                                         
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2040')=YES;                                                                                                                                                                         
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2050')=YES;                                                                                                                                                                         
+$ifi not %high_efficiency_industry% == yes $goto $low_efficiency_industry
+ALLOWEDINV_IND(AAA, G)$(GDATA(G,'GDFUEL') ne ELECTRIC) = NO;
+$label low_efficiency_industry
+
+AGKN(AAA,G)=YES$(ALLOWEDINV_IND(AAA,G) OR AGKN(AAA,G));
+
+
+*Assigning Estonian peat CHP options.
+*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2020')=YES;
+*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2030')=YES;
+*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2040')=YES;
+*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2050')=YES;
+*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2020')=YES;
+*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2030')=YES;
+*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2040')=YES;
+*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2050')=YES;
+
