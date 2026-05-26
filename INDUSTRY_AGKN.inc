@@ -538,7 +538,7 @@ ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-HT-NODH')=1)  and ALLOWEDINV_IND('D
 ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-MT-NODH')=1)  and ALLOWEDINV_IND('DK1_IND-MT-NODH',G))         = yes ;                                                                                                                           
 ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-LT-NODH')=1)  and ALLOWEDINV_IND('DK1_IND-LT-NODH',G))         = yes ;                                                                                                                           
                                                                                                                                                                                                                                               
-$ifi not %only_electrified_industry% == yes $goto $standard_choices
+$ifi not %only_electrified_industry% == yes $goto standard_choices
 ALLOWEDINV_IND(AAA, G)$(GDATA(G,'GDFUEL') ne ELECTRIC) = NO;
 $label standard_choices
 

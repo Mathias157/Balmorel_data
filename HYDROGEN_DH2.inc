@@ -95,7 +95,7 @@ $ifi %hydrogen_high% == yes HYDROGEN_DH2(YYY,CCCRRRAAA) = HYDROGEN_DH2(YYY,CCCRR
 
 
 
-$ifi not %high_efficiency_industry% == yes $goto $low_efficiency_industry
+$ifi not %high_efficiency_industry% == yes $goto low_efficiency_industry
 * Based on difference between frozen efficiency and high energy efficiency scenarios in:
 * R.M. Johannsen, B.V. Mathiesen, K. Kermeli, W. Crijns-Graus, P.A. Østergaard, Exploring pathways to 100% renewable energy in European industry, Energy 268 (2023) 126687. [https://doi.org/10.1016/j.energy.2023.126687](https://doi.org/10.1016/j.energy.2023.126687).
 HYDROGEN_DH2('2030',RRR)=HYDROGEN_DH2('2030',RRR)*0.87107;
