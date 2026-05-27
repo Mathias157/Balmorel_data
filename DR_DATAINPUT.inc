@@ -17,7 +17,7 @@ DR_SHIFT_TERI_VENT                                                              
 DR_SHIFT_TERI_COOL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2                                    1                               2                                                                                                                                                                                                            1
 DR_SHIFT_TERI_WATER                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2                                    1                               2                                                                                                                                                                                                            6
 DR_SHIFT_TERI_HEAT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2                                    1                               2                                                                                                                                                                                                            3                                                     0.97                               0.97                              0.03                   1.2                                                                         0.5
-DR_SHIFT_DATACENTER                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2                                    1                               2                                                                                                                                                                                                            1
+DR_SHIFT_DATACENTER                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2                                    1                               2                                                                                                                                                                                                            1                                                     1                                                                                                                                                                         1
 ;
 
 TABLE DR_FLH(AAA,DR_TECHNOLOGIES) 'Installed capacity for DR load/technology'
@@ -129,6 +129,8 @@ DR_FX(YYY,AAA,DR_TECHNOLOGIES)$(DR_FX('2015',AAA,DR_TECHNOLOGIES) AND NOT DR_FX(
 
 
 * ----- START OF DATACENTER DSM CAPACITY INPUT -----
+DR_FLH(AAA,'DR_SHIFT_DATACENTER')=8760;
+
 $onmulti
 TABLE DR_FX(YYY,AAA,DR_TECHNOLOGIES)  'Installed capacity for DR load/technology'
                 DR_SHIFT_DATACENTER
@@ -182,11 +184,8 @@ TABLE DR_FX(YYY,AAA,DR_TECHNOLOGIES)  'Installed capacity for DR load/technology
 ;
 $offmulti
 
-PARAMETER FLEXIBILITY_FRACTION(DEUSER) 'Fraction of deuser demand that can be shifted (%)'
-/DATACENTER 1.0/;
-
-* Set capacity to flexibilty_fraction of datacenter demand if there's datacenter demand or zero if there's no datacenter demand
-$ifi %flexible_datacenter% == yes DR_FX(YYY,AAA,'DR_SHIFT_DATACENTER')$(DR_FX('2050',AAA,'DR_SHIFT_DATACENTER')) = FLEXIBILITY_FRACTION('DATACENTER')*SUM(RRR, DE(YYY,RRR,'DATACENTER')$RRRAAA(RRR,AAA))/8736;
+* Set capacity to datacenter MW demand if there's datacenter demand or zero if there's no datacenter demand
+$ifi %flexible_datacenter% == yes DR_FX(YYY,AAA,'DR_SHIFT_DATACENTER')$(DR_FX('2050',AAA,'DR_SHIFT_DATACENTER')) = SUM(RRR, DE(YYY,RRR,'DATACENTER')$RRRAAA(RRR,AAA))/8760;
 
 * ----- END OF DATACENTER DSM CAPACITY INPUT -----
 
