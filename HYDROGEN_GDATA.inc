@@ -296,3 +296,10 @@ GNR_BACKUP_BIOMETHANE                                     HYDROGEN_GH2TOBIOMETH 
 GNR_IMPORT_H2                                             HYDROGEN_GETOH2             IMPORT_H2                 1                                                                                                         2020       100           1          2050                                                                                                                                                                                                                                                                                                                                                                             ELECTROLYZER
 
 ;
+
+* High 'unserved energy' cost for backup generators
+GDATA('GNR_BACKUP_ELECTRICITY','GDOMVCOST0')            =3000;
+GDATA('GNR_BACKUP_ELECTRICITY_CT-BIOMETH','GDOMVCOST0') =3000;
+GDATA('GNR_BACKUP_HEAT','GDOMVCOST0')                   =2000;
+GDATA('GNR_BACKUP_HYDROGEN','GDOMVCOST0')               =1000;
+
