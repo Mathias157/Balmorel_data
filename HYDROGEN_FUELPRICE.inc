@@ -102,4 +102,5 @@ SK       9.885226            9.885226
 UK       7.310544            7.310544
 ;
 
-FUELPRICE('2024',AAA,FFF) = SUM(RRR, BACKCASTPRICES1(RRR,'2024',FFF)*RRRAAA(RRR,AAA));                                                                                                                                                                                                                                                                                                                                                                                                                         
+FUELPRICE('2024',AAA,'HEAVYFUELOIL') = SUM(RRR, BACKCASTPRICES1(RRR,'2024','HEAVYFUELOIL')*RRRAAA(RRR,AAA));
+FUELPRICE('2024',AAA,'FUELOIL') = SUM(RRR, BACKCASTPRICES1(RRR,'2024','FUELOIL')*RRRAAA(RRR,AAA));
