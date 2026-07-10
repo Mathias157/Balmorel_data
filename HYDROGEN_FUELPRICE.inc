@@ -57,50 +57,51 @@ FUELPRICE(YYY,AAA,FFF)$((YYY.val                     >                       201
 
 
 
-TABLE BACKCASTPRICES1(RRR,YYY,FFF)  'Fuel prices (Money/GJ)'                                                                                                                                                                                                                                                                                                                                                                                                                                             
 * Backcasting adjustments:
-     2024.FUELOIL   2024.HEAVYFUELOIL
-AT      10.408892           10.408892
-BE       9.357385            9.357385
-BG      10.067227           10.067227
-CY      13.757279           13.757279
-CZ       6.804371            6.804371
-DE4-N    6.908057            6.908057
-DE4-W    6.908057            6.908057
-DE4-S    6.908057            6.908057
-DE4-E    6.908057            6.908057
-DK1     13.849965           13.849965
-DK2     13.849965           13.849965
-EE       2.492579            2.492579
-ES      11.340917           11.340917
-FIN     10.049687           10.049687
-FR       9.057904            9.057904
-GR       9.332230            9.332230
-HR      15.408569           15.408569
-HU      13.953610           13.953610
-IE      13.922056           13.922056
-IT      11.559872           11.559872
-LT       7.333699            7.333699
-LU       3.990995            3.990995
-LV       3.768977            3.768977
-MT      10.053544           10.053544
-NL      11.824933           11.824933
-PL      10.591120           10.591120
-PT      15.048341           15.048341
-RO      13.167612           13.167612
-NO1     11.725314           11.725314
-NO2     11.725314           11.725314
-NO3     11.725314           11.725314
-NO4     11.725314           11.725314
-NO5     11.725314           11.725314
-SE1     11.725314           11.725314
-SE2     11.725314           11.725314
-SE3     11.725314           11.725314
-SE4     11.725314           11.725314
-SI      10.827854           10.827854
-SK       9.885226            9.885226
-UK       7.310544            7.310544
+TABLE FUELOILDATA(RRR,YYY)  'Fuel prices (Money/GJ)'                                                                                                                                                                                                                                                                                                                                                                                                                                             
+              2024
+AT       10.408892
+BE        9.357385
+BG       10.067227
+CY       13.757279
+CZ        6.804371
+DE4-N     6.908057
+DE4-W     6.908057
+DE4-S     6.908057
+DE4-E     6.908057
+DK1      13.849965
+DK2      13.849965
+EE        2.492579
+ES       11.340917
+FIN      10.049687
+FR        9.057904
+GR        9.332230
+HR       15.408569
+HU       13.953610
+IE       13.922056
+IT       11.559872
+LT        7.333699
+LU        3.990995
+LV        3.768977
+MT       10.053544
+NL       11.824933
+PL       10.591120
+PT       15.048341
+RO       13.167612
+NO1      11.725314
+NO2      11.725314
+NO3      11.725314
+NO4      11.725314
+NO5      11.725314
+SE1      11.725314
+SE2      11.725314
+SE3      11.725314
+SE4      11.725314
+SI       10.827854
+SK        9.885226
+UK        7.310544
 ;
 
-FUELPRICE('2024',AAA,'HEAVYFUELOIL') = SUM(RRR, BACKCASTPRICES1(RRR,'2024','HEAVYFUELOIL')*RRRAAA(RRR,AAA));
-FUELPRICE('2024',AAA,'FUELOIL') = SUM(RRR, BACKCASTPRICES1(RRR,'2024','FUELOIL')*RRRAAA(RRR,AAA));
+FUELPRICE('2024',AAA,'FUELOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
+FUELPRICE('2024',AAA,'HEAVYFUELOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
+FUELPRICE('2024',AAA,'LIGHTOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
