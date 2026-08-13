@@ -47,13 +47,12 @@ $offtext
 *Price                                               saturates               after                                 a                                         point                                                                                                                                                                    
 ;                                                                                                                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                                                       
-PARAMETER                                            FUELPRICE(YYY,AAA,FFF);                                                                                                                                                                                                                                                          
-FUELPRICE(YYY,AAA,FFF)                               =                       SUM(RRR,                              FUELPRICE1(YYY,RRR,FFF)*RRRAAA(RRR,AAA));                                                                                                                                                                          
+FUELPRICE_HYDROGEN(YYY,AAA,FFF)                               =                       SUM(RRR,                              FUELPRICE1(YYY,RRR,FFF)*RRRAAA(RRR,AAA));                                                                                                                                                                          
                                                                                                                                                                                                                                                                                                                                       
 *                                                    Unless                  other                                 values                                    are                     assigned in                                  the         TABLE  FUELPRICE above,                                                                 
 *                                                    the                     values                                for                                       'DK1_large'             are      used                                for         all    A:                                                                               
-FUELPRICE('2015',AAA,FFF)$(FUELPRICE('2015',AAA,FFF) EQ                      0)=FUELPRICE('2015','DK1_large',FFF);                                                                                                                                                                                                                    
-FUELPRICE(YYY,AAA,FFF)$((YYY.val                     >                       2014)                                 and                                       (FUELPRICE(YYY,AAA,FFF) EQ       0))=FUELPRICE(YYY,'DK1_large',FFF);                                                                                                     
+FUELPRICE_HYDROGEN('2015',AAA,FFF)$(FUELPRICE_HYDROGEN('2015',AAA,FFF) EQ                      0)=FUELPRICE_HYDROGEN('2015','DK1_large',FFF);                                                                                                                                                                                                                    
+FUELPRICE_HYDROGEN(YYY,AAA,FFF)$((YYY.val                     >                       2014)                                 and                                       (FUELPRICE_HYDROGEN(YYY,AAA,FFF) EQ       0))=FUELPRICE_HYDROGEN(YYY,'DK1_large',FFF);                                                                                                     
 
 
 
@@ -105,10 +104,10 @@ UK        7.310544
 * Convert to €2016 from €2024
 FUELOILDATA(RRR,YYY)= FUELOILDATA(RRR,YYY)*0.7699;
 
-FUELPRICE('2024',AAA,'FUELOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
-FUELPRICE('2024',AAA,'HEAVYFUELOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
-FUELPRICE('2024',AAA,'LIGHTOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
+FUELPRICE_HYDROGEN('2024',AAA,'FUELOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
+FUELPRICE_HYDROGEN('2024',AAA,'HEAVYFUELOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
+FUELPRICE_HYDROGEN('2024',AAA,'LIGHTOIL') = SUM(RRR, FUELOILDATA(RRR,'2024')*RRRAAA(RRR,AAA));
 
 * Convert from USD2016 to €2016, use 0.90 €/USD
-FUELPRICE('2024',AAA,'COAL')=3.71*0.7699*0.9;
-FUELPRICE('2024',AAA,'NATGAS')=33.45*0.7699/3.6;
+FUELPRICE_HYDROGEN('2024',AAA,'COAL')=3.71*0.7699*0.9;
+FUELPRICE_HYDROGEN('2024',AAA,'NATGAS')=33.45*0.7699/3.6;
