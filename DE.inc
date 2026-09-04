@@ -170,3 +170,10 @@ DE(YYY,RRR,'OTHER')$(YYY.VAL GT 2020) = DE('2020',RRR,'OTHER') ;
 DE(YYY,RRR,'DATACENTER')=0;
 $if     EXIST '../data/DE_DATACENTER.inc' $INCLUDE      '../data/DE_DATACENTER.inc';
 $if not EXIST '../data/DE_DATACENTER.inc'    $INCLUDE '../../base/data/DE_DATACENTER.inc';
+
+$ifi not %dumbevshare%==yes $goto no_exogenous_EV_demand
+* EV dumb-charging fleet-split (exogenous inflexible EV demand)
+DE(YYY,RRR,'EV_DUMB')=0;
+$if     EXIST '../data/DE_EV_DUMB.inc' $INCLUDE      '../data/DE_EV_DUMB.inc';
+$if not EXIST '../data/DE_EV_DUMB.inc' $INCLUDE '../../base/data/DE_EV_DUMB.inc';
+$label no_exogenous_EV_demand
