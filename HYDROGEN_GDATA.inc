@@ -299,8 +299,3 @@ GNR_IMPORT_H2                                             HYDROGEN_GETOH2       
 
 * High 'unserved energy' cost for backup generators
 GDATA('GNR_BACKUP_HYDROGEN','GDOMVCOST0')               =1000;
-
-* TODO: Why would this be needed? Copied from hardcoding in import_results_ipardecdef.inc
-* Make cost of biogasmethanation and -upgrading similar
-* GOMVCOSTO(IA,G)$(GDATA(G,'GDTECHGROUP') EQ BIOGASUPGRADING AND SUM(Y,GKFX(Y,IA,G))) = GDATA(G,'GDOMVCOST0');
-* GOMVCOSTO(IA,G)$(GDATA(G,'GDTECHGROUP') EQ BIOGASMETHANATION AND SUM(Y,GKFX(Y,IA,G))) = GDATA(G,'GDOMVCOST0');
