@@ -160,3 +160,6 @@ TECHGROUPKPOT('RO','H2_SALTCAVERN_STORAGE')=2463280.2/2;
 TECHGROUPKPOT('UK','H2_SALTCAVERN_STORAGE')=5501270/2;
 $label unlimited_saltcavern
 
+
+* GREAT switch PVN - see TECHGROUPKPOT2.inc
+$ifi %low_pv% == yes $include '../../base/data/TECHGROUPKPOT2.inc';

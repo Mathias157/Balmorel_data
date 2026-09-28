@@ -1028,3 +1028,6 @@ $if not EXIST '../data/GDATA_renewable.inc' $INCLUDE '../../base/data/GDATA_rene
 
 
 
+
+* GREAT switch NPY - see GDATA_NUCLEAR_OPTIMISTIC.inc
+$ifi %nuclear_optimistic% == yes $include '../../base/data/GDATA_NUCLEAR_OPTIMISTIC.inc';
