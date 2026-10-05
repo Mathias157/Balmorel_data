@@ -1,55 +1,29 @@
-PARAMETER WTRRRFLH(AAA) 'Full load hours for hydro run-of-river plants (hours)'                                                                                                       
-* Includes the three options "dry", "wet" and "normal" according to which hydrological conditions to analyze                                                                          
-/                                                                                                                                                                                     
-* Average year 2002-2011                                                                                                                                                              
-FinA                                                                                                                                                                  4819.27012282765
-DE4-E_A                                                                                                                                                               2035.37481427205
-DE4-N_A                                                                                                                                                               2035.37481427205
-DE4-S_A                                                                                                                                                               2035.37481427205
-DE4-W_A                                                                                                                                                               2035.37481427205
-NL_A                                                                                                                                                                  4200            
-NO1_A1                                                                                                                                                                4175.15822434474
-NO2_A1                                                                                                                                                                4734.04616878191
-NO3_A1                                                                                                                                                                3856.64552610268
-NO4_A1                                                                                                                                                                3844.41878371575
-NO5_A1                                                                                                                                                                5285.48782040366
-SE1A                                                                                                                                                                  4117.721607607  
-SE2A                                                                                                                                                                  5120.45007111377
-SE3A                                                                                                                                                                  4202.55103738896
-SE4A                                                                                                                                                                  4772.87790539999
-UK_A                                                                                                                                                                  3032            
-EE_A                                                                                                                                                                  7500            
-LV_RigaR                                                                                                                                                              2465            
-LT_KauU                                                                                                                                                               4800            
-PL_Rural                                                                                                                                                              2425            
-DK2_NoDH                                                                                                                                                              4819.86064070176
-DK1_NoDH                                                                                                                                                              4819.86064070176
-BE_A                                                                                                                                                                  2999.99997642319
-FR_A                                                                                                                                                                  2843.99998353587
-IT_A                                                                                                                                                                  3300            
-CH_A                                                                                                                                                                  4000            
-AT_A                                                                                                                                                                  4000            
-CZ_A                                                                                                                                                                  2843.99998353587
-ES_A                                                                                                                                                                  2843.99998353587
-PT_A                                                                                                                                                                  2843.99998353587
-SK_A                                                                                                                                                                  2843.99998353587
-HU_A                                                                                                                                                                  2843.99998353587
-SI_A                                                                                                                                                                  2843.99998353587
-HR_A                                                                                                                                                                  2843.99998353587
-RO_A                                                                                                                                                                  2843.99998353587
-BG_A                                                                                                                                                                  2843.99998353587
-GR_A                                                                                                                                                                  2843.99998353587
-IE_A                                                                                                                                                                  2843.99998353587
-LU_A                                                                                                                                                                  2843.99998353587
-AL_A                                                                                                                                                                  2843.99998353587
-ME_A                                                                                                                                                                  2843.99998353587
-MK_A                                                                                                                                                                  2843.99998353587
-BA_A                                                                                                                                                                  2843.99998353587
-RS_A                                                                                                                                                                  2843.99998353587
-TR_A                                                                                                                                                                  2843.99998353587
-MT_A                                                                                                                                                                  2843.99998353587
-CY_A                                                                                                                                                                  2843.99998353587
-/;                                                                                                                                                                                    
-                                                                                                                                                                                      
-* If WTRRRFLH has no values, but solar power is an investment option or has capacity in GKFX: Use the same value as FinA                                                              
-WTRRRFLH(IA)$((NOT WTRRRFLH(IA)) AND (SUM(G$(GDATA(G,'GDTYPE') EQ GHYRR), AGKN(IA,G)) OR SUM((G,Y)$(GDATA(G,'GDTYPE') EQ GHYRR), GKFX(Y,IA,G)))) = WTRRRFLH('FinA') ;                 
+$onMulti
+$include '../../base/data/weatheryear_ref/WTRRRFLH.inc';
+$offMulti
+*File created from weatheryear module
+WTRRRFLH('AT_A') = 1.0702136191729967 * WTRRRFLH('AT_A') ;
+WTRRRFLH('BG_A') = 0.8383006561683416 * WTRRRFLH('BG_A') ;
+WTRRRFLH('CH_A') = 1.052159212813338 * WTRRRFLH('CH_A') ;
+WTRRRFLH('DE4-E_A') = 1.038422764314341 * WTRRRFLH('DE4-E_A') ;
+WTRRRFLH('DE4-N_A') = 1.038422764314341 * WTRRRFLH('DE4-N_A') ;
+WTRRRFLH('DE4-S_A') = 1.038422764314341 * WTRRRFLH('DE4-S_A') ;
+WTRRRFLH('DE4-W_A') = 1.038422764314341 * WTRRRFLH('DE4-W_A') ;
+WTRRRFLH('ES_A') = 0.804391276308892 * WTRRRFLH('ES_A') ;
+WTRRRFLH('FinA') = 1.136997619116927 * WTRRRFLH('FinA') ;
+WTRRRFLH('FR_A') = 0.9448039084761096 * WTRRRFLH('FR_A') ;
+WTRRRFLH('IT_A') = 1.005616267050886 * WTRRRFLH('IT_A') ;
+WTRRRFLH('LV_RigaR') = 1.256522363473172 * WTRRRFLH('LV_RigaR') ;
+WTRRRFLH('NO1_A1') = 1.1781151571434123 * WTRRRFLH('NO1_A1') ;
+WTRRRFLH('NO2_A1') = 1.0046762703080634 * WTRRRFLH('NO2_A1') ;
+WTRRRFLH('NO3_A1') = 1.1203832661134088 * WTRRRFLH('NO3_A1') ;
+WTRRRFLH('NO4_A1') = 0.9925845826849952 * WTRRRFLH('NO4_A1') ;
+WTRRRFLH('NO5_A1') = 1.085899506489583 * WTRRRFLH('NO5_A1') ;
+WTRRRFLH('PT_A') = 0.6503909886086009 * WTRRRFLH('PT_A') ;
+WTRRRFLH('RO_A') = 0.8059586177618662 * WTRRRFLH('RO_A') ;
+WTRRRFLH('RS_A') = 0.907103603854538 * WTRRRFLH('RS_A') ;
+WTRRRFLH('SE1A') = 1.2026892008039716 * WTRRRFLH('SE1A') ;
+WTRRRFLH('SE2A') = 1.2662166414365643 * WTRRRFLH('SE2A') ;
+WTRRRFLH('SE3A') = 1.2803718857261603 * WTRRRFLH('SE3A') ;
+WTRRRFLH('SE4A') = 1.2843793491844633 * WTRRRFLH('SE4A') ;
+WTRRRFLH('UK_A') = 1.0197438192809805 * WTRRRFLH('UK_A') ;
