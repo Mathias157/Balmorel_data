@@ -3,52 +3,59 @@
 
 TABLE TECHGROUPKPOT2(CCCRRRAAA,TECH_GROUP)       'Technology group capacity restriction by geography (MW)'
         SOLARPV
-AL      600
-AT      51000
-BA      1000
-BE      27500
-BG      4500
+AL      601
+AT      31632
+BA      601
+BE      14417
+BG      4501
 CH      10000
 CY      1500
-CZ      12000
-DE4-E   50549
-DE4-N   24213
-DE4-S   76050
-DE4-W   58119
-DK1     20094
-DK2     11926
-EE      1315
-ES      96000
-FIN     7160
-FR      125000
-GR      23500
+CZ      6001
+DE4-E   24572
+DE4-N   2536
+DE4-S   38025
+DE4-W   6166
+DK1     7643
+DK2     6036
+EE      571
+ES      96001
+FIN     3360
+FR      79962
+GR      22305
 HR      1500
-HU      11500
-IE      10220
+HU      11501
+IE      2506
 IT      125000
-LT      1605
-LU      1000
-LV      571
+LT      853
+LU      688
+LV      222
 ME      1000
 MK      2000
 MT      205
-NL      69000
-NO1     1200
-NO2     1200
-NO3     700
-NO4     150
-NO5     1150
-PL      43418
+NL      29733
+NO1     600
+NO2     600
+NO3     120
+NO5     600
+PL      20020
 PT      14500
 RO      17500
 RS      2500
-SE1     2993
-SE2     3833
-SE3     5750
-SE4     5750
-SI      6000
-SK      2500
-UK      42000
+SE1     625
+SE2     625
+SE3     2876
+SE4     2116
+SI      3001
+SK      2501
+UK      16279
 ;
 
 TECHGROUPKPOT(CCCRRRAAA, 'SOLARPV') = TECHGROUPKPOT2(CCCRRRAAA,'SOLARPV');
+
+* If existing capacities are larger than potential, set potential to 1 MW above existing capacities
+TECHGROUPKPOT(RRR,'SOLARPV')$(
+    SMAX(YYY, SUM((AAA,GGG)$(RRRAAA(RRR,AAA) AND GDATA(GGG,'GDTECHGROUP') EQ TECH_GROUP_VALUE('SOLARPV')), GKFX(YYY,AAA,GGG)))
+    GE TECHGROUPKPOT(RRR,'SOLARPV')
+  )
+  = SMAX(YYY, SUM((AAA,GGG)$(RRRAAA(RRR,AAA) AND GDATA(GGG,'GDTECHGROUP') EQ TECH_GROUP_VALUE('SOLARPV')), GKFX(YYY,AAA,GGG)))
+  + 1;
