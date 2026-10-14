@@ -22,4 +22,5 @@ WINDTURBINE_ONSHORE              WINDTURBINE_ONSHORE
 WINDTURBINE_OFFSHORE            WINDTURBINE_OFFSHORE                           
 BACKUP_ELECTRICITY            BACKUP_ELECTRICITY                               
 BACKUP_HEAT           BACKUP_HEAT                                              
+H2_SALTCAVERN_STORAGE            H2_SALTCAVERN_STORAGE                         
 /;                                                                             
