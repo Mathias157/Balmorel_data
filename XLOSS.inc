@@ -78,3 +78,12 @@ CY                                                                              
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 * Then fill in the values not entered in the table assuming symmetry:                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 *LOOP( (IRRRE,IRRRI)$(ORD(IRRRE) GT ORD(IRRRI)),  XLOSS(IRRRE,IRRRI)=XLOSS(IRRRI,IRRRE););                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+* Subsea HVDC links that had no loss (GREAT docs/adr/0042, addendum 2026-10-21): NeuConnect DE4-N-UK and the
+* Celtic Interconnector FR-IE (added with the TYNDP 2024 grid, ADR 0041/0042) and NorNed NL-NO2. As in the table,
+* the loss is proportional to the route length between the region points (transmission_costs.link_geometry):
+* 3.10 % per 1000 km, the length-weighted mean of the twelve subsea HVDC links in the table.
+* Route lengths: DE4-N-UK 761 km, FR-IE 1022 km, NL-NO2 788 km.
+XLOSS('DE4-N','UK') = 0.02359;  XLOSS('UK','DE4-N') = 0.02359;
+XLOSS('FR','IE')    = 0.03167;  XLOSS('IE','FR')    = 0.03167;
+XLOSS('NL','NO2')   = 0.02444;  XLOSS('NO2','NL')   = 0.02444;

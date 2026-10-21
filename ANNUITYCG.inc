@@ -16244,3 +16244,9 @@ ANNUITYCG(CCC,'GNR_ST_NUCL_CND_E-33_Y-2050')=0.04420184512328321;
 * ANNUITYCG(CCC,'GNR_ST_NUCL_CND_E-33_Y-2035')=0.041814075487637985;
 * ANNUITYCG(CCC,'GNR_ST_NUCL_CND_E-33_Y-2050')=0.041814075487637985;
 
+
+* VRE annuities from the technologies' own lifetimes (PV 40 y, onshore 2020 vintage 27 y), written by the
+* WEATHERYEAR module next to GDATA_renewable.inc (GREAT docs/adr/0034). Without this include every VRE
+* technology kept the 30-year value above. Included last, so it overrides those lines.
+$if     EXIST '../data/ANNUITYCG_renewables.inc' $INCLUDE         '../data/ANNUITYCG_renewables.inc';
+$if not EXIST '../data/ANNUITYCG_renewables.inc' $INCLUDE '../../base/data/ANNUITYCG_renewables.inc';

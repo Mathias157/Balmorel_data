@@ -66,25 +66,25 @@ internal_help(YYY,CCCRRRAAA)
 
 internal_help(YYY,CCCRRRAAA) = HYDROGEN_DH2(YYY,CCCRRRAAA);
 
-HYDROGEN_DH2('2020','DK1') =  (internal_help('2020','DK1') / (internal_help('2020','DK1') + internal_help('2020','DK1'))) *1* internal_help('2020','UK');
+HYDROGEN_DH2('2020','DK1') =  (internal_help('2020','DK1') / (internal_help('2020','DK1') + internal_help('2020','DK2'))) *1* internal_help('2020','UK');
 HYDROGEN_DH2('2020','DK2') =  (internal_help('2020','DK2') / (internal_help('2020','DK1') + internal_help('2020','DK2'))) *1* internal_help('2020','UK');
 
-HYDROGEN_DH2('2025','DK1') =  (internal_help('2025','DK1')/(internal_help('2025','DK1')+internal_help('2025','DK1')))*1*internal_help('2025','UK');
+HYDROGEN_DH2('2025','DK1') =  (internal_help('2025','DK1')/(internal_help('2025','DK1')+internal_help('2025','DK2')))*1*internal_help('2025','UK');
 HYDROGEN_DH2('2025','DK2') =  (internal_help('2025','DK2')/(internal_help('2025','DK1')+internal_help('2025','DK2')))*1*internal_help('2025','UK');
 
-HYDROGEN_DH2('2030','DK1') =  (internal_help('2030','DK1')/(internal_help('2030','DK1')+internal_help('2030','DK1')))*1*internal_help('2030','UK');
+HYDROGEN_DH2('2030','DK1') =  (internal_help('2030','DK1')/(internal_help('2030','DK1')+internal_help('2030','DK2')))*1*internal_help('2030','UK');
 HYDROGEN_DH2('2030','DK2') =  (internal_help('2030','DK2')/(internal_help('2030','DK1')+internal_help('2030','DK2')))*1*internal_help('2030','UK');
 
-HYDROGEN_DH2('2035','DK1') =  (internal_help('2035','DK1')/(internal_help('2035','DK1')+internal_help('2035','DK1')))*1*internal_help('2035','UK');
+HYDROGEN_DH2('2035','DK1') =  (internal_help('2035','DK1')/(internal_help('2035','DK1')+internal_help('2035','DK2')))*1*internal_help('2035','UK');
 HYDROGEN_DH2('2035','DK2') =  (internal_help('2035','DK2')/(internal_help('2035','DK1')+internal_help('2035','DK2')))*1*internal_help('2035','UK');
 
-HYDROGEN_DH2('2040','DK1') =  (internal_help('2040','DK1')/(internal_help('2040','DK1')+internal_help('2040','DK1')))*0.3*internal_help('2040','UK');
+HYDROGEN_DH2('2040','DK1') =  (internal_help('2040','DK1')/(internal_help('2040','DK1')+internal_help('2040','DK2')))*0.3*internal_help('2040','UK');
 HYDROGEN_DH2('2040','DK2') =  (internal_help('2040','DK2')/(internal_help('2040','DK1')+internal_help('2040','DK2')))*0.3*internal_help('2040','UK');
 
-HYDROGEN_DH2('2045','DK1') =  (internal_help('2045','DK1')/(internal_help('2045','DK1')+internal_help('2045','DK1')))*0.3*internal_help('2045','UK');
+HYDROGEN_DH2('2045','DK1') =  (internal_help('2045','DK1')/(internal_help('2045','DK1')+internal_help('2045','DK2')))*0.3*internal_help('2045','UK');
 HYDROGEN_DH2('2045','DK2') =  (internal_help('2045','DK2')/(internal_help('2045','DK1')+internal_help('2045','DK2')))*0.3*internal_help('2045','UK');
 
-HYDROGEN_DH2('2050','DK1') =  (internal_help('2050','DK1')/(internal_help('2050','DK1')+internal_help('2050','DK1')))*0.27*internal_help('2050','UK');
+HYDROGEN_DH2('2050','DK1') =  (internal_help('2050','DK1')/(internal_help('2050','DK1')+internal_help('2050','DK2')))*0.27*internal_help('2050','UK');
 HYDROGEN_DH2('2050','DK2') =  (internal_help('2050','DK2')/(internal_help('2050','DK1')+internal_help('2050','DK2')))*0.27*internal_help('2050','UK');
 
 
@@ -98,7 +98,12 @@ $ifi %hydrogen_high% == yes HYDROGEN_DH2(YYY,CCCRRRAAA) = HYDROGEN_DH2(YYY,CCCRR
 $ifi not %high_efficiency_industry% == yes $goto low_efficiency_industry
 * Based on difference between frozen efficiency and high energy efficiency scenarios in:
 * R.M. Johannsen, B.V. Mathiesen, K. Kermeli, W. Crijns-Graus, P.A. Østergaard, Exploring pathways to 100% renewable energy in European industry, Energy 268 (2023) 126687. [https://doi.org/10.1016/j.energy.2023.126687](https://doi.org/10.1016/j.energy.2023.126687).
+* The paper has 2030 and 2050 only; 2035, 2040 and 2045 are linear interpolations (GREAT docs/adr/0049).
+* Same factors as INDUSTRY_DH.inc and scripts/preprocessing/industry.py (checked by tests/test_industry_efficiency.py).
 HYDROGEN_DH2('2030',RRR)=HYDROGEN_DH2('2030',RRR)*0.87107;
+HYDROGEN_DH2('2035',RRR)=HYDROGEN_DH2('2035',RRR)*0.828205;
+HYDROGEN_DH2('2040',RRR)=HYDROGEN_DH2('2040',RRR)*0.78534;
+HYDROGEN_DH2('2045',RRR)=HYDROGEN_DH2('2045',RRR)*0.742475;
 HYDROGEN_DH2('2050',RRR)=HYDROGEN_DH2('2050',RRR)*0.69961;
 $label low_efficiency_industry
 

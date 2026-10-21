@@ -385,7 +385,12 @@ IND-SH                                                                 .    CY_I
 $ifi not %high_efficiency_industry% == yes $goto low_efficiency_industry
 * Based on difference between frozen efficiency and high energy efficiency scenarios in:
 * R.M. Johannsen, B.V. Mathiesen, K. Kermeli, W. Crijns-Graus, P.A. Østergaard, Exploring pathways to 100% renewable energy in European industry, Energy 268 (2023) 126687. [https://doi.org/10.1016/j.energy.2023.126687](https://doi.org/10.1016/j.energy.2023.126687).
+* The paper has 2030 and 2050 only; 2035, 2040 and 2045 are linear interpolations (GREAT docs/adr/0049).
+* Same factors as HYDROGEN_DH2.inc and scripts/preprocessing/industry.py (checked by tests/test_industry_efficiency.py).
 DH1_IND(DHUSER,AAA, '2030')=DH1_IND(DHUSER,AAA, '2030')*0.87107;
+DH1_IND(DHUSER,AAA, '2035')=DH1_IND(DHUSER,AAA, '2035')*0.828205;
+DH1_IND(DHUSER,AAA, '2040')=DH1_IND(DHUSER,AAA, '2040')*0.78534;
+DH1_IND(DHUSER,AAA, '2045')=DH1_IND(DHUSER,AAA, '2045')*0.742475;
 DH1_IND(DHUSER,AAA, '2050')=DH1_IND(DHUSER,AAA, '2050')*0.69961;
 $label low_efficiency_industry
 
