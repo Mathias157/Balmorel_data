@@ -1,3 +1,4 @@
+* Money: EUR2012, not converted: only used by the DFLEXQUANT addon. Multiply by 1.022 before use, inputs are EUR2016 (docs/adr/0071 in the GREAT repo).
 PARAMETER DHFP_BASE(AAA)  'Nominal annual average consumer heat price (including taxes) in the base year (Money/MWh)'                                                                                                                 
 /                                                                                                                                                                                                                                     
 DK2_Large                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
