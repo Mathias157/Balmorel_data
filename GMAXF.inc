@@ -186,7 +186,7 @@ GMAXF(Y,CCCRRRAAA,'WOODCHIPS')=GMAXF('2016',CCCRRRAAA,'WOODCHIPS');
 GMAXF(Y,CCCRRRAAA,'WOODPELLETS')=GMAXF('2016',CCCRRRAAA,'WOODPELLETS');   
 * Biomass fuel limits (WOODCHIPS, WOODPELLETS, WOOD, STRAW, BIOGAS) from JRC ENSPRESO, written by GREAT
 * scripts/preprocessing/biomass_potentials.py (GREAT docs/adr/0053). Included after the 2016 copies above, so it
-* overrides them for every modelled country and year. WOODWASTE keeps its 2016 rows.
+* overrides them for every modelled country and year, WOODWASTE included (EPS, GREAT docs/adr/0077).
 $if     EXIST '../data/GMAXF_BIOMASS.inc' $INCLUDE         '../data/GMAXF_BIOMASS.inc';
 $if not EXIST '../data/GMAXF_BIOMASS.inc' $INCLUDE '../../base/data/GMAXF_BIOMASS.inc';
   
