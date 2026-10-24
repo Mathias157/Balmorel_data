@@ -1,7 +1,2 @@
-TABLE EMI_POLNA(YYY,GROUP,EMIPOLSET)  "Emission policy data; default for the 'LIM_' entries: 0 implies irrelevant, EPS implies no emission permitted (aggregated countries)"                                                                 
-                                                                                                                                                                                                                                             
-*                                                                                                                                                                            ALL_SECTORS.LIM_CO2 ALL_SECTORS.LIM_SO2 ALL_SECTORS.LIM_NOX     
-* Units:                                                                                                                                                                     t CO2/year          t SO2/year          t NOx/year              
-*2012                                                                                                                                                                                                                                        
-;                                                                                                                                                                                                                                            
-EMI_POLNA('2050','ALL_SECTORS','LIM_CO2')=-82000000;                                                                                                                                                                                                             
+* SCNAME NZE (NZE fuel prices) keeps EUNZ's emission cap; only fuel prices differ (GREAT docs/adr/0083)
+$INCLUDE '../../base/data/EMI_POLNA_EUNZ.inc';
