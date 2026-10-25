@@ -290,7 +290,7 @@ GNR_BIOGASMETHANATION_E-168_Y-2040                        HYDROGEN_GBIOGASMETHAN
 GNR_BIOGASMETHANATION_E-168_Y-2050                        HYDROGEN_GBIOGASMETHANATION BIOGAS                    1.67924528301887                      0.4543076          18.1723             2.16337                      2050       25            1          2050                                                                                                                                                                                                                                     1    23.1481481481481 0.15     11.93696  1.022            0.596848  0.1       0                           12        12                  BIOGASMETHANATION                       1       0.01  336
 
 *BACKUP
-GNR_BACKUP_HYDROGEN                                       HYDROGEN_GETOH2             ELECTRIC                  0.5                                                                          10.22                        2020       25            1          2029                                                                                                                                                                                                                                          100              0.15     11.93696  1.022            0.596848  0.1       0                           12        12                  BACKUP_HYDROGEN                         1       0.02  48
+GNR_BACKUP_HYDROGEN                                       HYDROGEN_GCH4TOH2           NATGAS                    0.7                                                                          10.22                        2020       25            1          2029                                                                                                                                                                                                                                          100              0.15     11.93696  1.022            0.596848  0.1       0                           12        12                  BACKUP_HYDROGEN                         1       0.02  48
 GNR_BACKUP_BIOMETHANE                                     HYDROGEN_GH2TOBIOMETH       HYDROGEN                  0.6                                                                          10.22                        2020       25            1          2050                                                                                                                                                                                                                                          10               0.15     11.93696  1.022            0.596848  0.1       0                           12        12                  BACKUP_BIOMETHANE                       1       0.01  67
 
 *IMPORT HYDROGEN TECHNOLOGY
@@ -298,5 +298,5 @@ GNR_IMPORT_H2                                             HYDROGEN_GETOH2       
 
 ;
 
-* High 'unserved energy' cost for backup generators
-GDATA('GNR_BACKUP_HYDROGEN','GDOMVCOST0')               =1000;
+* High 'unserved energy' cost for backup generators, 3000 like backup electricity so no unit can undercut the backups with it (docs/adr/0088 in the GREAT repo)
+GDATA('GNR_BACKUP_HYDROGEN','GDOMVCOST0')               =3000;

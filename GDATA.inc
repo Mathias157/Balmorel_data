@@ -1019,10 +1019,10 @@ ZIEL-4_ST_COAL_BP                                                               
 
 ;
 
-* Cost of backup generation
+* Cost of backup generation, 3000 for every backup (docs/adr/0088 in the GREAT repo)
 GDATA('GNR_BACKUP_ELECTRICITY','GDOMVCOST0')            =3000;
 GDATA('GNR_BACKUP_ELECTRICITY_CT-BIOMETH','GDOMVCOST0') =3000;
-GDATA('GNR_BACKUP_HEAT','GDOMVCOST0')                   =2000;
+GDATA('GNR_BACKUP_HEAT','GDOMVCOST0')                   =3000;
 
 $if     EXIST '../data/GDATA_renewable.inc' $INCLUDE '../data/GDATA_renewable.inc ';
 $if not EXIST '../data/GDATA_renewable.inc' $INCLUDE '../../base/data/GDATA_renewable.inc';
