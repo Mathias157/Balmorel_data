@@ -269,6 +269,9 @@ GNR_H2S_H2-CAVERN_Y-2040
 GNR_H2S_H2-CAVERN_Y-2050                           
 *METHANATION+CO2 DIRECT AIR CAPTURE                
 GNR_METHANATION-DAC_E-60_Y-2020                    
+GNR_METHANATION-DAC_E-60_Y-2030                    
+GNR_METHANATION-DAC_E-60_Y-2040                    
+GNR_METHANATION-DAC_E-60_Y-2050                    
 *STEAM REFORMING                                   
 GNR_STEAM-REFORMING_E-70_Y-2020                    
 GNR_STEAM-REFORMING-CCS_E-70_Y-2020                

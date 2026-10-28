@@ -274,6 +274,14 @@ ALLOWEDINV_INDIVUSERS(AAA,G)$((INVDATA_INDIVUSERS(AAA,'IDVU-HOTWTR')=1)  and ALL
 ALLOWEDINV_INDIVUSERS(AAA,G)$((INVDATA_INDIVUSERS(AAA,'IDVU-SPACEHEAT')=1)  and ALLOWEDINV_INDIVUSERS('DK1_IDVU-SPACEHEAT',G))  = yes;                                                                
                                                                                                                                                                                                       
                                                                                                                                                                                                       
+* GREAT switch HPN (--limited_individual_heatpump yes): e-boilers are outside the HEATPUMP
+* tech group cap, so INV built them at COP 1 in place of the capped heat pumps (GREAT docs/adr/0092).
+$ifi not %limited_individual_heatpump% == yes $goto no_limited_individual_heatpump_eboilers
+ALLOWEDINV_INDIVUSERS(AAA,'GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2020') = NO;
+ALLOWEDINV_INDIVUSERS(AAA,'GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2030') = NO;
+ALLOWEDINV_INDIVUSERS(AAA,'GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2040') = NO;
+ALLOWEDINV_INDIVUSERS(AAA,'GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2050') = NO;
+$label no_limited_individual_heatpump_eboilers
 $ifi not %GROUP_DEMAND_SHIFT%==yes  $goto NO_INDIVUSERS_AGKN                                                                                                                                          
 *Redefine indivuser areas without sector as new DH areas, where no technology is allowed.                                                                                                             
 ALLOWEDINV_INDIVUSERS(AAA,G)$SUM(DHUSER,INDIVUSERS_GROUP_A(AAA,DHUSER,'RES_NEW_DH')) = NO ;                                                                                                           
